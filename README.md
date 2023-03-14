@@ -5,7 +5,7 @@ This repo is created to record my process of practicing LeetCode coding problems
 Thanks to [代码随想录](https://www.programmercarl.com) for giving a detailed instruction on **how to choose the problems** and in what **order** to solve them. I am following this guide to practice LeetCode problems.
 
 # Catalogue
-> **Array**:
+> **Array**: </br>
     1. [Binary Search](#binary-search) and [related problems](#applications) </br>
     2. [Remove Element](#remove-element) and [related problems](#applications-1) </br>
     3. [squares-of-a-sorted-array](#squares-of-a-sorted-array) </br>

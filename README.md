@@ -83,3 +83,12 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 #### Keys: Sliding Window (Still Two Pointers Method)
 1. In my **first version**, I used two pointers, one from the start and the other from the end of the array, to move towards the middle, and find a subarray that cannot be reduced anymore. Nevertheless, this method has an obvious fallacy that it **only considers the partial optimized solution, without a general optimized solution, which is quite like greedy algorithm**. There are many cases this method cannot handle.</br>
 2. The second version is about **Sliding Window**, which is a kind of **two pointers method**. It includes all situations and heuristically prevents certain combinations that are not optimal. </br> Actually, there are two kinds of sliding window: **iterate the starting pointer** and **iterate the ending pointer**. In this version, we iterate the start pointer. </br>
+
+#### Applications:
+1. **fruit into baskets**:
+   > My first version: [fruit into baskets](Array/fruit-into-baskets/fruit-into-baskets.cpp) *This version cannot pass all the tests due to the time limit exceediing.* </br>
+   > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/fruit-into-baskets/), [English Version](https://leetcode.com/problems/fruit-into-baskets/)
+
+   **Keys**:
+   1. In my **first version**, the thought is simple: for every start point, there is only one situation for the number of fruits, so I just need to **iterate all the start points**, i.e. from start to the end, to find the most fruits I can get. But obviously, this can lead to O($n^2$) time complexity.
+   2. Applying the thought of **sliding window**, I modify my first version into the second version. The essence is very similar to the previous problem. But this question chooses **iterating the end pointer rather than the start pointer**. Actually, I find that it is more convenient to iterate the end pointer in **sliding window**.</br>

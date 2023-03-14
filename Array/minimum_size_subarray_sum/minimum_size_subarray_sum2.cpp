@@ -15,8 +15,6 @@ public:
             }
             if (result == 0) result = end - i + 1;
             else if (end - i + 1 < result) result = end - i + 1;
-
-
         }
         return result;
     }

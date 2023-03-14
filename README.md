@@ -6,10 +6,10 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
 
 # Catalogue
 > **Array**:
-    1. [Binary Search](#binary-search) and [related problems](#applications)
-    2. [Remove Element](#remove-element) and [related problems](#applications-1)
-    3. [squares-of-a-sorted-array](#squares-of-a-sorted-array)
-    4. [minimum-size-subarray-sum](#miminum-size-subarray-sum)
+    1. [Binary Search](#binary-search) and [related problems](#applications) </br>
+    2. [Remove Element](#remove-element) and [related problems](#applications-1) </br>
+    3. [squares-of-a-sorted-array](#squares-of-a-sorted-array) </br>
+    4. [minimum-size-subarray-sum](#miminum-size-subarray-sum) </br>
 
 # Array
 ## Binary Search
@@ -31,7 +31,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 #### Applications: 
 1. **Search Insert Position:**
-    > My first version: [Search Insert Position](Array/binary_search/search-insert-position.cpp)
+    > My first version: [Search Insert Position](Array/binary_search/search-insert-position.cpp) </br>
     > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/search-insert-position/), [English Version](https://leetcode.com/problems/search-insert-position/)
 
     **Why Using Binary Search:**
@@ -41,7 +41,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
     **Key**: Classify the different situations of the target number and consider the corner cases.
 
 ## Remove Element
-> My first version: [Remove Elements](Array/remove_element/remove-element.cpp)
+> My first version: [Remove Elements](Array/remove_element/remove-element.cpp) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/remove-element/), [English Version](https://leetcode.com/problems/remove-element/)
 
 #### Keys:
@@ -60,24 +60,24 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 #### Applications:
 1. **Remove Duplicates from Sorted Array**
-    > My first version: [Remove Duplicates from Sorted Array](Array/remove_element/remove-duplicates-from-sorted-array.cpp)
+    > My first version: [Remove Duplicates from Sorted Array](Array/remove_element/remove-duplicates-from-sorted-array.cpp) </br>
     > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/), [English Version](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
     
     **Why Using Two Pointers Method:**: the array is sorted in **non-descending order**. So the duplicated elements are adjacent to each other. </br>
     **Think about when the array is not sorted:** the array is not sorted in **non-descending order**. So the duplicated elements are not adjacent to each other. In this case, we can use **Hash Table** to solve the problem. But the time complexity is O(n) and the space complexity is O(n).
 
 ## Squares of a Sorted Array
-> My first version: [Squares of a Sorted Array](Array/squares_of_a_sorted_array/squares_of_a_sorted_array.cpp)
-> Second version: [Squares of a Sorted Array2](Array/squares_of_a_sorted_array/squares_of_a_sorted_array2.cpp)
+> My first version: [Squares of a Sorted Array](Array/squares_of_a_sorted_array/squares_of_a_sorted_array.cpp) </br>
+> Second version: [Squares of a Sorted Array2](Array/squares_of_a_sorted_array/squares_of_a_sorted_array2.cpp) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/squares-of-a-sorted-array/), [English Version](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
 #### Keys: (Two Pointers Method)
-1. In my **first version**, I stuck to the thinking that **I have to sort the result array from left to right in an ascending order**. So, I first use binary search to find the decision boundary of positive and negative numbers, and then use two pointers to merge the two sorted arrays. However, this method is not efficient enough. </br>
+1. In my **first version**, I stuck to the thinking that **I have to sort the result array from left to right in an ascending order**. So, I first use binary search to find the decision boundary of positive and negative numbers, and then use two pointers to merge the two sorted arrays. However, this method is not efficient enough.
 2. In my **second version**, not implementing the sorting, I just use two pointers to merge the two sorted arrays in descending order and return the result array from the end of the array to the start. </br>
 
 ## Miminum Size Subarray Sum
-> My first version: [Minimum Size Subarray Sum](Array/minimum_size_subarray_sum/minimum_size_subarray_sum.cpp) This first version cannot pass the unit tests provided by LeetCode.
-> Second version: [Minimum Size Subarray Sum2](Array/minimum_size_subarray_sum/minimum_size_subarray_sum2.cpp)
+> My first version: [Minimum Size Subarray Sum](Array/minimum_size_subarray_sum/minimum_size_subarray_sum.cpp) *This first version cannot pass the unit tests provided by LeetCode.* </br>
+> Second version: [Minimum Size Subarray Sum2](Array/minimum_size_subarray_sum/minimum_size_subarray_sum2.cpp) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/minimum-size-subarray-sum/), [English Version](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
 #### Keys: Sliding Window (Still Two Pointers Method)

@@ -6,13 +6,14 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
 
 # Catalogue
 > **Array**:
-    > 1. [Binary Search](#binary-search) and [related problems](#applications)
-    > 2. [Remove Element](#remove-element) and [related problems](#applications-1)
-    > 3. [squares-of-a-sorted-array](#squares-of-a-sorted-array)
+    1. [Binary Search](#binary-search) and [related problems](#applications)
+    2. [Remove Element](#remove-element) and [related problems](#applications-1)
+    3. [squares-of-a-sorted-array](#squares-of-a-sorted-array)
+    4. [minimum-size-subarray-sum](#miminum-size-subarray-sum)
 
 # Array
 ## Binary Search
-> My first version: [Binary Search](Array/binary_search/binary_search.py)
+> My first version: [Binary Search](Array/binary_search/binary_search.py) </br>
 > Problem Link: [Chinese Version](https://leetcode.cn/problems/binary-search/), [English Version](https://leetcode.com/problems/binary-search/)
 #### Missing Keys:
 1. when calculating the 'middle', I did not consider **overflowing of the integer type**, using 

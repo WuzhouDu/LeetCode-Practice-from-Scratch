@@ -87,6 +87,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 #### Applications:
 1. **fruit into baskets**:
    > My first version: [fruit into baskets](Array/fruit-into-baskets/fruit-into-baskets.cpp) *This version cannot pass all the tests due to the time limit exceediing.* </br>
+   > Second version: [fruit into baskets2](Array/fruit-into-baskets/fruit-into-baskets2.cpp) </br>
    > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/fruit-into-baskets/), [English Version](https://leetcode.com/problems/fruit-into-baskets/)
 
    **Keys**:

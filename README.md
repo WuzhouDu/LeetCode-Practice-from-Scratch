@@ -9,8 +9,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     1. [Binary Search](#binary-search) and [related problems](#applications) </br>
     2. [Remove Element](#remove-element) and [related problems](#applications-1) </br>
     3. [squares-of-a-sorted-array](#squares-of-a-sorted-array) </br>
-    4. [minimum-size-subarray-sum](#miminum-size-subarray-sum) </br>
-
+    4. [minimum-size-subarray-sum](#miminum-size-subarray-sum) and [related problems](#applications-2) </br>
+    5. [Spiral Matrix](#spiral-matrix) </br>
 # Array
 ## Binary Search
 > My first version: [Binary Search](Array/binary_search/binary_search.py) </br>
@@ -93,3 +93,12 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
    **Keys**:
    1. In my **first version**, the thought is simple: for every start point, there is only one situation for the number of fruits, so I just need to **iterate all the start points**, i.e. from start to the end, to find the most fruits I can get. But obviously, this can lead to O($n^2$) time complexity.
    2. Applying the thought of **sliding window**, I modify my first version into the second version. The essence is very similar to the previous problem. But this question chooses **iterating the end pointer rather than the start pointer**. Actually, I find that it is more convenient to iterate the end pointer in **sliding window**.</br>
+
+## Spiral Matrix
+> My first version: [Spiral Matrix](Array/spiral-matrix-ii/spiral-matrix-ii.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/spiral-matrix-ii/), [English Version](https://leetcode.com/problems/spiral-matrix-ii/)
+
+#### Keys:
+   1. **Iterate the matrix layer by layer**. </br>
+   2. Pay attention to how to **iterate the matrix layer by layer**. Find the things that ***don't change in every loop and keep consistent*** when judging the loop conditions (***whether the interval is close, open, left-close-right-open or left-open-right-close?***)</br>
+   3. This is a very good example to show the manipulation of the loop and the index. </br>

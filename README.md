@@ -11,6 +11,11 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     3. [squares-of-a-sorted-array](#squares-of-a-sorted-array) </br>
     4. [minimum-size-subarray-sum](#miminum-size-subarray-sum) and [related problems](#applications-2) </br>
     5. [Spiral Matrix](#spiral-matrix) </br>
+> **List**: </br>
+    1. [remove-linked-list-elements](#remove-linked-list-elements) </br>
+    2. [design-linked-list](#design-linked-list) </br>
+
+
 # Array
 ## Binary Search
 > My first version: [Binary Search](Array/binary_search/binary_search.py) </br>
@@ -24,7 +29,7 @@ instead of
 ```python
 middle = left + (right - left) // 2
 ```
-2. referring to [solution](https://www.programmercarl.com/0704.%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html#%E6%80%9D%E8%B7%AF), remember to define whether the target is in the range of [left, right] or [left, right). Though in my version I consider the middle as a decision boundary.
+1. referring to [solution](https://www.programmercarl.com/0704.%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html#%E6%80%9D%E8%B7%AF), remember to define whether the target is in the range of [left, right] or [left, right). Though in my version I consider the middle as a decision boundary.
 
 #### Others to Note:
 The conditions using **binary search** are usually **sorted** and **non-repetitive elements**.
@@ -102,3 +107,36 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
    1. **Iterate the matrix layer by layer**. </br>
    2. Pay attention to how to **iterate the matrix layer by layer**. Find the things that ***don't change in every loop and keep consistent*** when judging the loop conditions (***whether the interval is close, open, left-close-right-open or left-open-right-close?***)</br>
    3. This is a very good example to show the manipulation of the loop and the index. </br>
+
+
+
+# List
+## Remove Linked List Elements
+> My first version: [Remove Linked List Elements](List/remove-linked-list-elements/remove-linked-list-elements.cpp) *This version cannot pass the test.* (太菜了┭┮﹏┭┮)</br>
+> My second version: [Remove Linked List Elements2](List/remove-linked-list-elements/remove-linked-list-elements2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/remove-linked-list-elements/), [English Version](https://leetcode.com/problems/remove-linked-list-elements/)
+
+#### Keys
+1. In my **first version**, I used a **dummy node** to solve the problem. But my implementation has an error, which is during each while loop, the **current pointer** updation is not correct. There are 2 problems: 
+   ```cpp
+        while (current->next != NULL){
+            if (current->next->val == val){
+                if (current->next == head){
+                    head = head->next;
+                }
+                current->next = current->next->next;
+            }
+            current = current->next;
+        }
+    ```
+   1. My logic is: whether the next node should be deleted or not, **I always move the current pointer to the next in one while loop** (so the current updation is outside of the ```if```). The problem is that, if I remove the last element of the list, the current will become NULL pointer. A test case showing this bug is [1, 2, 3, 5, 6] and remove target is 6. When removing the last element, the current will be a ```NULL``` pointer, leading to a bug.</br>
+   2. The second problem is about the updation of ```head```. This is a sub-problem caused by previous problem. An example showing the ```head``` updation bug is [7, 7, 7, 7]. When removing the first element, the ```head``` will be updated to the second ```7```, but the current pointer also points to the second ```7```, missing the removal of the second ```7```. </br>
+   3. The core of the above problem is that, **when removing the current's next node, the current pointer should not move to the next in this while loop. Because I don't have the information of the current's next' next**. </br>
+   4. After modifying the code, the **[second version](List/remove-linked-list-elements/remove-linked-list-elements2.cpp)** can pass all the tests. </br>
+
+## Design Linked List
+> My first version: [Design Linked List](List/design-linked-list/design-linked-list.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/design-linked-list/), [English Version](https://leetcode.com/problems/design-linked-list/)
+
+#### Keys
+1. My first version can pass all the tests. But it is obvious that the code is **not well organized**. There are **too many corner cases judgement**. The core problem is that **A dummy head node and an attribute to record the internal size are missing.**</br>

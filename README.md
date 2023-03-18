@@ -136,7 +136,9 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## Design Linked List
 > My first version: [Design Linked List](List/design-linked-list/design-linked-list.cpp) </br>
+> Second version: [Design Linked List2](List/design-linked-list/design-linked-list2.cpp) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/design-linked-list/), [English Version](https://leetcode.com/problems/design-linked-list/)
 
 #### Keys
 1. My first version can pass all the tests. But it is obvious that the code is **not well organized**. There are **too many corner cases judgement**. The core problem is that **A dummy head node and an attribute to record the internal size are missing.**</br>
+2. [Second version](List/design-linked-list/design-linked-list2.cpp) is the **optimized version**. </br>

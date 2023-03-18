@@ -14,6 +14,7 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
 > **List**: </br>
     1. [remove-linked-list-elements](#remove-linked-list-elements) </br>
     2. [design-linked-list](#design-linked-list) </br>
+    3. [reverse-linked-list](#reverse-linked-list) </br>
 
 
 # Array
@@ -142,3 +143,10 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 #### Keys
 1. My first version can pass all the tests. But it is obvious that the code is **not well organized**. There are **too many corner cases judgement**. The core problem is that **A dummy head node and an attribute to record the internal size are missing.**</br>
 2. [Second version](List/design-linked-list/design-linked-list2.cpp) is the **optimized version**. </br>
+
+## Reverse Linked List
+> My first version: [Reverse Linked List](List/reverse-linked-list/reverse-linked-list.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/reverse-linked-list/), [English Version](https://leetcode.com/problems/reverse-linked-list/)
+
+#### Keys
+1. The key is to **use three pointers' updation to iterate the whole linked list**. Pay attention to the **loop condition, that is when the loop is over, which pointer is the division boundary, is there any NULL pointer reference?** Drawing a graph and simulating the process can solve the problem.</br>

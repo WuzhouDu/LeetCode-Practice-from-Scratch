@@ -15,6 +15,7 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     1. [remove-linked-list-elements](#remove-linked-list-elements) </br>
     2. [design-linked-list](#design-linked-list) </br>
     3. [reverse-linked-list](#reverse-linked-list) </br>
+    4. [swap-nodes-in-pairs](#swap-nodes-in-pairs) </br>
 
 
 # Array
@@ -150,3 +151,11 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 #### Keys
 1. The key is to **use three pointers' updation to iterate the whole linked list**. Pay attention to the **loop condition, that is when the loop is over, which pointer is the division boundary, is there any NULL pointer reference?** Drawing a graph and simulating the process can solve the problem.</br>
+
+## Swap Nodes in Pairs
+> My first version: [Swap Nodes in Pairs](List/swap-nodes-in-pairs/swap-nodes-in-pairs.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/swap-nodes-in-pairs/), [English Version](https://leetcode.com/problems/swap-nodes-in-pairs/)
+
+#### Keys
+1. Just simulate the process of swapping nodes. </br>
+2. Pay attention to the **null pointer reference**. (今天终于一直有注意这个情况了！)</br>

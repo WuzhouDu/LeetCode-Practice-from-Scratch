@@ -16,6 +16,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     2. [design-linked-list](#design-linked-list) </br>
     3. [reverse-linked-list](#reverse-linked-list) </br>
     4. [swap-nodes-in-pairs](#swap-nodes-in-pairs) </br>
+    5. [remove-nth-node-from-end-of-list](#remove-nth-node-from-end-of-list) </br>
+    6. [intersection-of-two-linked-lists-lcci](#intersection-of-two-linked-lists) </br>
 
 
 # Array
@@ -159,3 +161,20 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 #### Keys
 1. Just simulate the process of swapping nodes. </br>
 2. Pay attention to the **null pointer reference**. (今天终于一直有注意这个情况了！)</br>
+
+
+## Remove Nth Node From End of List
+> My first version: [Remove Nth Node From End of List](List/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/), [English Version](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
+#### Keys
+1. **"Two Pointers Method" 双指针法**. </br>
+2. Corner case judgement. </br>
+
+## Intersection of Two Linked Lists
+> My first version: except for the brutal force method or the hashmap method, no idea </br>
+> Answer: [Intersection of Two Linked Lists](List/intersection-of-two-linked-lists-lcci/intersection-of-two-linked-lists-lcci.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci/), [English Version](https://leetcode.com/problems/intersection-of-two-linked-lists-lcci/)
+
+#### Keys:
+1. The reason why I cannot figure out the **$O(n)$** time method is that I do not utilize the condition that **all nodes after the intersection pointer will be the same**. So, two pointers method can dominate.

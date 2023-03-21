@@ -18,6 +18,7 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     4. [swap-nodes-in-pairs](#swap-nodes-in-pairs) </br>
     5. [remove-nth-node-from-end-of-list](#remove-nth-node-from-end-of-list) </br>
     6. [intersection-of-two-linked-lists-lcci](#intersection-of-two-linked-lists) </br>
+    7. [Linked List Cycle-ii](#linked-list-cycle-ii) </br>
 
 
 # Array
@@ -178,3 +179,11 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 #### Keys:
 1. The reason why I cannot figure out the **$O(n)$** time method is that I do not utilize the condition that **all nodes after the intersection pointer will be the same**. So, two pointers method can dominate.
+
+## Linked List Cycle-ii
+> My first version: [Linked List Cycle-ii](List/linked-list-cycle-ii/linked-list-cycle-ii.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/linked-list-cycle-ii/), [English Version](https://leetcode.com/problems/linked-list-cycle-ii/)
+
+#### Keys
+1. **"Two Pointers Method" 双指针法. Once you meet with this problem, this method will pop up when encountering it again（xuasong:典型的套路题）**. </br>
+2. Simulate the process of two pointers and find the internal mathmatical relationship between the two pointers. </br>

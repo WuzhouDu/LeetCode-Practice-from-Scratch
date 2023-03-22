@@ -19,6 +19,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     5. [remove-nth-node-from-end-of-list](#remove-nth-node-from-end-of-list) </br>
     6. [intersection-of-two-linked-lists-lcci](#intersection-of-two-linked-lists) </br>
     7. [Linked List Cycle-ii](#linked-list-cycle-ii) </br>
+> **Hash Table**: </br>
+    1. [valid-anagram](#valid-anagram) </br>
 
 
 # Array
@@ -192,3 +194,16 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 1. Most of the time, using a **dummy head node** can simplify the problem since it can avoid the **head node corner case**. </br>
 2. Two pointers method is a **very common method** to solve the linked list problem. </br>
 3. Pay attention to the **null pointer reference**. </br>
+
+# Hash Table
+## Valid Anagram
+> My first version: [Valid Anagram](Hash-Table/valid-anagram/valid-anagram.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/valid-anagram/), [English Version](https://leetcode.com/problems/valid-anagram/)
+
+#### Keys:
+1. Array is a kind of hash table. The index is the key, and the value is the value. </br>
+
+## intersection-of-two-arrays
+> No idea other than brutal force method </br>
+> Since the answer uses the ```unordered_set``` container, I have to learn it. Answer link: https://www.programmercarl.com/0349.%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86.html#%E6%80%9D%E8%B7%AF</br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/intersection-of-two-arrays/), [English Version](https://leetcode.com/problems/intersection-of-two-arrays/)

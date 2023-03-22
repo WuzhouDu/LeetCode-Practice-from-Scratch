@@ -187,3 +187,8 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 #### Keys
 1. **"Two Pointers Method" 双指针法. Once you meet with this problem, this method will pop up when encountering it again（xuasong:典型的套路题）**. </br>
 2. Simulate the process of two pointers and find the internal mathmatical relationship between the two pointers. </br>
+
+## Summary of Linked List
+1. Most of the time, using a **dummy head node** can simplify the problem since it can avoid the **head node corner case**. </br>
+2. Two pointers method is a **very common method** to solve the linked list problem. </br>
+3. Pay attention to the **null pointer reference**. </br>

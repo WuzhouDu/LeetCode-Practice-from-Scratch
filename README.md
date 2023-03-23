@@ -23,6 +23,7 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     1. [valid-anagram](#valid-anagram) </br>
     2. [intersection-of-two-arrays](#intersection-of-two-arrays) </br>
     3. [happy-number](#happy-number) </br>
+    4. [two-sum](#two-sum) </br>
 
 
 # Array
@@ -217,3 +218,10 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 #### Keys:
 1. About the **loop or cycle** detection, if you have to search for the value in the loop, you can use the **set**. Since the set can guarantee the non-repetitiveness.</br>
+
+## Two-sum
+> My first version: [Two-sum](Hash-Table/two-sum/two-sum.cpp) </br>
+> Porblem Link: [Chinese Version](https://leetcode-cn.com/problems/two-sum/), [English Version](https://leetcode.com/problems/two-sum/)
+
+#### Keys:
+1. why using hash map? I have to store the already searched **element and its corresponding index**, which is easy to connect to the "key-value pairs" concept in hash map.

@@ -24,6 +24,7 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     2. [intersection-of-two-arrays](#intersection-of-two-arrays) </br>
     3. [happy-number](#happy-number) </br>
     4. [two-sum](#two-sum) </br>
+    5. [four-sum-ii](#four-sum-ii) </br>
 
 
 # Array
@@ -225,3 +226,11 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 #### Keys:
 1. why using hash map? I have to store the already searched **element and its corresponding index**, which is easy to connect to the "key-value pairs" concept in hash map.
+
+## Four-sum-ii
+> My first version: [Four-sum-ii](Hash-Table/four-sum-ii/four-sum-ii.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/four-sum-ii/), [English Version](https://leetcode.com/problems/four-sum-ii/)
+
+#### Keys:
+1. The brutal force method takes $O(n^4)$ time, which is not acceptable. </br>
+2. Similar to the two-sum problem, we can use the hash map to store the sum of two elements and the corresponding number of pairs. </br>

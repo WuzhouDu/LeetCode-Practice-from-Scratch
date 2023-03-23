@@ -21,6 +21,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     7. [Linked List Cycle-ii](#linked-list-cycle-ii) </br>
 > **Hash Table**: </br>
     1. [valid-anagram](#valid-anagram) </br>
+    2. [intersection-of-two-arrays](#intersection-of-two-arrays) </br>
+    3. [happy-number](#happy-number) </br>
 
 
 # Array
@@ -205,5 +207,13 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## intersection-of-two-arrays
 > No idea other than brutal force method </br>
+> Answer: [intersection-of-two-arrays](Hash-Table/intersection-of-two-arrays/intersection-of-two-arrays.cpp) </br>
 > Since the answer uses the ```unordered_set``` container, I have to learn it. Answer link: https://www.programmercarl.com/0349.%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86.html#%E6%80%9D%E8%B7%AF</br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/intersection-of-two-arrays/), [English Version](https://leetcode.com/problems/intersection-of-two-arrays/)
+
+## Happy Number
+> My first version: [Happy Number](Hash-Table/happy-number/happy-number.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/happy-number/), [English Version](https://leetcode.com/problems/happy-number/)
+
+#### Keys:
+1. About the **loop or cycle** detection, if you have to search for the value in the loop, you can use the **set**. Since the set can guarantee the non-repetitiveness.</br>

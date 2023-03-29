@@ -28,7 +28,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     6. [3sum](#3sum) </br>
     7. [4sum](#4sum) </br>
 > **String**: </br>
->   1. [reverse-string](#reverse-string) </br>
+    1. [reverse-string](#reverse-string) </br>
+    2. [reverse-string-ii](#reverse-string-ii) </br>
 
 
 # Array
@@ -265,3 +266,9 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 #### Keys:
 1. Very basic problem, use the **two pointers method** to solve it. </br>
 
+## Reverse String-ii
+> My first version: [Reverse String-ii](String/reverse-string-ii/reverse-string-ii.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/reverse-string-ii/), [English Version](https://leetcode.com/problems/reverse-string-ii/)
+
+#### Keys:
+1. Actually, my **first version** is much more complex. The logic is tedious since the **for loop** of the string reversal repeats a lot. Define an additional function to handle this.</br>

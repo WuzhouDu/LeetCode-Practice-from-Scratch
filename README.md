@@ -27,6 +27,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     5. [four-sum-ii](#four-sum-ii) </br>
     6. [3sum](#3sum) </br>
     7. [4sum](#4sum) </br>
+> **String**: </br>
+>   1. [reverse-string](#reverse-string) </br>
 
 
 # Array
@@ -254,3 +256,12 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 #### Keys:
 1. Very similar to the 3sum problem. Both problems utilize the **two pointers method**.
 2. Remember the **overflow problem** and **cutting the branch problem**. Overflow can be caused by the **sum of two numbers**. Cutting the branch can reduce the time.
+
+# String
+## Reverse String
+> My first version: [Reverse String](String/reverse-string/reverse-string.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/reverse-string/), [English Version](https://leetcode.com/problems/reverse-string/)
+
+#### Keys:
+1. Very basic problem, use the **two pointers method** to solve it. </br>
+

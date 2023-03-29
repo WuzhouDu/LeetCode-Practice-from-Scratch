@@ -25,6 +25,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     3. [happy-number](#happy-number) </br>
     4. [two-sum](#two-sum) </br>
     5. [four-sum-ii](#four-sum-ii) </br>
+    6. [3sum](#3sum) </br>
+    7. [4sum](#4sum) </br>
 
 
 # Array
@@ -244,3 +246,11 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 1. 首先看懂题目意思。。。说的是元组包含nums中的哪三个数的和为0，而不是这三个数索引的元组。
 2. The hardest part is how to avoid repetition. If using **hash method** like [four sum](#four-sum-ii), it is very difficult because of a large number of corner cases.
 3. Using **two pointers method**. Firstly sorting the array in order can give the pointers movement a hint. Then the repetition avoidance is easy to accomplish.
+
+## 4sum
+> My first version: [4sum](Hash-Table/4sum/4sum.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/4sum/), [English Version](https://leetcode.com/problems/4sum/)
+
+#### Keys:
+1. Very similar to the 3sum problem. Both problems utilize the **two pointers method**.
+2. Remember the **overflow problem** and **cutting the branch problem**. Overflow can be caused by the **sum of two numbers**. Cutting the branch can reduce the time.

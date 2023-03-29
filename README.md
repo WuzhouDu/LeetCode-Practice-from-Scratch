@@ -234,3 +234,13 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 #### Keys:
 1. The brutal force method takes $O(n^4)$ time, which is not acceptable. </br>
 2. Similar to the two-sum problem, we can use the hash map to store the sum of two elements and the corresponding number of pairs. </br>
+
+## 3sum
+> No idea except hash map. But the de repetition process is trivious and easily bring bugs. It cannot pass. [3sum](Hash-Table/3sum/3sum.cpp) </br>
+> answer: [3sum](Hash-Table/3sum/3sum2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/3sum/), [English Version](https://leetcode.com/problems/3sum/)
+
+#### Keys:
+1. 首先看懂题目意思。。。说的是元组包含nums中的哪三个数的和为0，而不是这三个数索引的元组。
+2. The hardest part is how to avoid repetition. If using **hash method** like [four sum](#four-sum-ii), it is very difficult because of a large number of corner cases.
+3. Using **two pointers method**. Firstly sorting the array in order can give the pointers movement a hint. Then the repetition avoidance is easy to accomplish.

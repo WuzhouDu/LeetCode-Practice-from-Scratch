@@ -30,6 +30,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
 > **String**: </br>
     1. [reverse-string](#reverse-string) </br>
     2. [reverse-string-ii](#reverse-string-ii) </br>
+    3. [replace-whitespace](#replace-whitespace) </br>
+    4. [reverse-words-in-a-string](#reverse-words-in-a-string) </br>
 
 
 # Array
@@ -272,3 +274,22 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 #### Keys:
 1. Actually, my **first version** is much more complex. The logic is tedious since the **for loop** of the string reversal repeats a lot. Define an additional function to handle this.</br>
+
+## Replace whitespace
+> My first version: [Replace white space](String/replace-whitespace/replace-whitespace.cpp) </br>
+> Problem link: [Chinese Version](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/), [English Version](https://leetcode.com/problems/ti-huan-kong-ge-lcof/)
+
+#### Keys:
+1. understand that the string is actually the same as **character array**. So pay attention to the space allocation.
+2. Think of **moving pointer from the backward** about the reallocation problem.
+3. **Allocate the needed space in advance.**
+
+## Reverse words in a string
+> My first version: At first, I have no clear idea. </br>
+> After exposure to the answer's thought, the second version: [Reverse words in a string](String/reverse-words-in-a-string/reverse-words-in-a-string.cpp) </br>
+> Problem link: [Chinese Version](https://leetcode.cn/problems/reverse-words-in-a-string/submissions/), [English Version](https://leetcode.com/problems/reverse-words-in-a-string/)
+
+#### Keys:
+1. Two key points:
+2. **How to eliminate the unwanted whitespaces?**: two pointers method. 
+3. **How to reverse the order of words, but remain the order of characters in each word?**: reverse all the characters, then reverse each word sparated by white space.

@@ -32,7 +32,7 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     2. [reverse-string-ii](#reverse-string-ii) </br>
     3. [replace-whitespace](#replace-whitespace) </br>
     4. [reverse-words-in-a-string](#reverse-words-in-a-string) </br>
-
+    5. [zuo-xuan-zhuan-zi-fu-chuan-lcof](#zuo-xuan-zhuan-zi-fu-chuan-lcof)
 
 # Array
 ## Binary Search
@@ -293,3 +293,34 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 1. Two key points:
 2. **How to eliminate the unwanted whitespaces?**: two pointers method. 
 3. **How to reverse the order of words, but remain the order of characters in each word?**: reverse all the characters, then reverse each word sparated by white space.
+
+## zuo-xuan-zhuan-zi-fu-chuan-lcof
+> My first version: [zuo-xuan-zhuan-zi-fu-chuan-lcof](String/zuo-xuan-zhuan-zi-fu-chuan-lcof/zuo-xuan-zhuan-zi-fu-chuan-lcof.cpp) </br>
+> Second version: [zuo-xuan-zhuan-zi-fu-chuan-lcof](String/zuo-xuan-zhuan-zi-fu-chuan-lcof/zuo-xuan-zhuan-zi-fu-chuan-lcof2.cpp) </br>
+> Problem link: [Chinese Version](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/), [English Version](https://leetcode.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+
+#### Keys:
+1. In my first version, I consider that no extra space cannot be achieved. But concerning the reverse string operation, it is actually a **in-place operation**. So the extra space is not needed. </br>
+
+## find-the-index-of-the-first-occurrence-in-a-string
+> My first version: [find-the-index-of-the-first-occurrence-in-a-string, brutal force](String/find-the-index-of-the-first-occurrence-in-a-string/find-the-index-of-the-first-occurrence-in-a-string.cpp) </br>
+> Problem link: [Chinese Version](https://leetcode-cn.com/problems/find-the-index-of-the-first-occurrence-in-a-string/), [English Version](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+
+#### Keys:
+1. **Brutal force method** can solve the problem with $O(n*m)$ time complexity. </br>
+2. **KMP algorithm** can solve the problem with $O(n+m)$ time complexity. </br>
+3. Understand the **KMP algorithm**: 
+   1. how to optimize the **brutal force method**?: use some already known information to avoid some useless comparisons. -> partial match table
+   2. how to get partial match table?:
+   ```python
+   def getNxt(x):
+        for i in range(x, 0, -1):
+            if p[0:i] == p[x-i+1:x+1]:
+                return i
+        return 0
+    ```
+    This will cause $O(m^2)$ time complexity. So we can further optimize it. </br>
+    3. how to further optimize the **KMP algorithm**?:
+    如何更好地理解和掌握 KMP 算法? - 阮行止的回答 - 知乎
+    https://www.zhihu.com/question/21923021/answer/1032665486
+    核心的一点是：j一直是当前最长前缀的下一个位置；如果nxt[j] != nxt[i],说明当前后缀不能再用j匹配了，j必须缩小，而如何缩小呢？

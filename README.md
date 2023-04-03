@@ -32,7 +32,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     2. [reverse-string-ii](#reverse-string-ii) </br>
     3. [replace-whitespace](#replace-whitespace) </br>
     4. [reverse-words-in-a-string](#reverse-words-in-a-string) </br>
-    5. [zuo-xuan-zhuan-zi-fu-chuan-lcof](#zuo-xuan-zhuan-zi-fu-chuan-lcof)
+    5. [zuo-xuan-zhuan-zi-fu-chuan-lcof](#zuo-xuan-zhuan-zi-fu-chuan-lcof) </br>
+    6. [KMP / find-the-index-of-the-first-occurrence-in-a-string](#kmp-algo--find-the-index-of-the-first-occurrence-in-a-string) </br>
 
 # Array
 ## Binary Search
@@ -302,8 +303,9 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 #### Keys:
 1. In my first version, I consider that no extra space cannot be achieved. But concerning the reverse string operation, it is actually a **in-place operation**. So the extra space is not needed. </br>
 
-## find-the-index-of-the-first-occurrence-in-a-string
+## KMP algo / find-the-index-of-the-first-occurrence-in-a-string
 > My first version: [find-the-index-of-the-first-occurrence-in-a-string, brutal force](String/find-the-index-of-the-first-occurrence-in-a-string/find-the-index-of-the-first-occurrence-in-a-string.cpp) </br>
+> Second version:[KMP](String/find-the-index-of-the-first-occurrence-in-a-string/kmp.cpp) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/find-the-index-of-the-first-occurrence-in-a-string/), [English Version](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
 #### Keys:

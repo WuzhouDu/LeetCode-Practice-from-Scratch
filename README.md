@@ -34,6 +34,12 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     4. [reverse-words-in-a-string](#reverse-words-in-a-string) </br>
     5. [zuo-xuan-zhuan-zi-fu-chuan-lcof](#zuo-xuan-zhuan-zi-fu-chuan-lcof) </br>
     6. [KMP / find-the-index-of-the-first-occurrence-in-a-string](#kmp-algo--find-the-index-of-the-first-occurrence-in-a-string) </br>
+    7. [repeated-substring-pattern](#repeated-substring-pattern) </br>
+> **Stack and Queue**: </br>
+    1. [implement-queue-using-stacks](#implement-queue-using-stacks) </br>
+    2. [implement-stack-using-queues](#implement-stack-using-queues) </br>
+    3. [remove-all-adjacent-duplicates-in-string](#remove-all-adjacent-duplicates-in-string) </br>
+    4. [valid-parentheses](#valid-parentheses) </br>
 
 # Array
 ## Binary Search
@@ -326,3 +332,36 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
     如何更好地理解和掌握 KMP 算法? - 阮行止的回答 - 知乎
     https://www.zhihu.com/question/21923021/answer/1032665486
     核心的一点是：j一直是当前最长前缀的下一个位置；如果nxt[j] != nxt[i],说明当前后缀不能再用j匹配了，j必须缩小，而如何缩小呢？
+
+## repeated-substring-pattern
+> My first version: brutal force, incurs $O(n^2)$ time complexity. </br>
+> second version: [repeated-substring-pattern](String/repeated-substring-pattern/repeated-substring-pattern.cpp) </br>
+> Problem link: [Chinese Version](https://leetcode-cn.com/problems/repeated-substring-pattern/), [English Version](https://leetcode.com/problems/repeated-substring-pattern/)
+
+#### Keys:
+1. The method is very delicate: concatenate the string with itself, then delete the first and the last character. If the string is in the concatenated string, then the string is a repeated substring pattern. </br>
+2. It is apparent that this condition is sufficient. But how to prove that it is necessary? [answer](https://leetcode.cn/problems/repeated-substring-pattern/solution/zhong-fu-de-zi-zi-fu-chuan-by-leetcode-solution/)
+
+
+# Stack and Queue
+## implement-queue-using-stacks
+> My first version: [implement-queue-using-stacks](Stack-and-Queue/implement-queue-using-stacks/implement-queue-using-stacks.cpp) </br>
+> Problem link: [Chinese Version](https://leetcode-cn.com/problems/implement-queue-using-stacks/), [English Version](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+#### Keys:
+Very fundamental problem. Just pay attention to **when to update the out queue**. </br>
+
+## implement-stack-using-queues
+> My first version: [implement-stack-using-queues](Stack-and-Queue/implement-stack-using-queues/implement-stack-using-queues.cpp) </br>
+> Problem link: [Chinese Version](https://leetcode-cn.com/problems/implement-stack-using-queues/), [English Version](https://leetcode.com/problems/implement-stack-using-queues/)
+> Basic problem so no more explanation.
+
+## remove-all-adjacent-duplicates-in-string
+> My first version: [remove-all-adjacent-duplicates-in-string](Stack-and-Queue/remove-all-adjacent-duplicates-in-string/remove-all-adjacent-duplicates-in-string.cpp) </br>
+> Problem link: [Chinese Version](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/), [English Version](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+> Basic problem so no more explanation.
+
+## Valid Parentheses
+> My first version: [Valid Parentheses](Stack-and-Queue/Valid-Parentheses/Valid-Parentheses.cpp) </br>
+> Problem link: [Chinese Version](https://leetcode-cn.com/problems/valid-parentheses/), [English Version](https://leetcode.com/problems/valid-parentheses/)
+> Basic problem so no more explanation.

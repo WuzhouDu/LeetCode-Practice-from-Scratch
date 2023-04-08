@@ -40,6 +40,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     2. [implement-stack-using-queues](#implement-stack-using-queues) </br>
     3. [remove-all-adjacent-duplicates-in-string](#remove-all-adjacent-duplicates-in-string) </br>
     4. [valid-parentheses](#valid-parentheses) </br>
+    5. [evaluate-reverse-polish-notation](#evaluate-reverse-polish-notation) </br>
+    6. [sliding-window-maximum](#sliding-window-maximum) </br>
 
 # Array
 ## Binary Search
@@ -365,3 +367,34 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 > My first version: [Valid Parentheses](Stack-and-Queue/Valid-Parentheses/Valid-Parentheses.cpp) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/valid-parentheses/), [English Version](https://leetcode.com/problems/valid-parentheses/)
 > Basic problem so no more explanation.
+
+## evaluate-reverse-polish-notation
+> My first version: [evaluate-reverse-polish-notation](Stack-and-Queue/evaluate-reverse-polish-notation/evaluate-reverse-polish-notation.cpp) </br>
+> Problem link: [Chinese Version](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/), [English Version](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
+> Basic problem so no more explanation.
+
+## sliding-window-maximum
+> My first version: [sliding-window-maximum](Stack-and-Queue/sliding-window-maximum/sliding-window-maximum.cpp) *This version exceeds the time constraint*</br>
+> Second version: [sliding-window-maximum](Stack-and-Queue/sliding-window-maximum/sliding-window-maximum2.cpp) </br>
+> Problem link: [Chinese Version](https://leetcode-cn.com/problems/sliding-window-maximum/), [English Version](https://leetcode.com/problems/sliding-window-maximum/)
+
+#### Keys:
+1. The first version is a **brutal force method wtih $O(n)$ time complexity** . It is easy to understand but it exceeds the time constraint. </br>
+2. The second version is implementing a descending queue using **double-ended queue with $O(n)$ time complexity**. Another name of this special data structure is **monotonic queue**. The ***essence*** is that:
+   1.  when iterating from the **small index to large index**, if a number with low index is smaller than the number with higehr index, it will be **impossible** to occur in the result. To understand this, we should consider that the sliding window is a range from a small index to a large index, the lower index number will quit the window first, so if it is large, it is possible to occur in the result, but if it is small, it will never occur in the result since the latter number will always be over it.</br>
+   2. However, how do we know that the large number, the front of the queue, is still in the sliding window? :
+      1. We can use the index to record the position of the number. </br>
+      2. Or we can use the **pop_front()** function to delete the number that is out of the sliding window. But how do we know that the front of the queue is the number quiting the sliding window? Actually, **we only need to delete those quiting numbers equal to the front of queue.** That is :
+      ```cpp
+      if (!q.empty() && q.front() == nums[i-1]) q.pop_front();
+      ```
+        </br>
+3. An interesting point when implementing the algorithm: when pushing new numbers, the numbers in the queue should be **descending**. So we need to delete the numbers that are smaller than the new number. But what about the numbers that are equal to the new number? Actually, we **should** keep them in the queue.
+    ```cpp
+        while (!q.empty() && q.back() < nums[i]){
+            q.pop_back();
+        }
+    ```
+    In this line of code, the **<** sign can not be **<=**. If it is **<=**, the numbers that are equal to the new number will be deleted, but when the input case is like: [-7,-8,7,5,7,1,6,0] and k = 4, the problem rises. Since we delete the repeated **7**, when it quits the queue, all the **7** quits and this is not we want. 
+    </br>
+

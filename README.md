@@ -379,7 +379,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/sliding-window-maximum/), [English Version](https://leetcode.com/problems/sliding-window-maximum/)
 
 #### Keys:
-1. The first version is a **brutal force method wtih $O(n)$ time complexity** . It is easy to understand but it exceeds the time constraint. </br>
+1. The first version is a **brutal force method wtih $O(n^2)$ time complexity** . It is easy to understand but it exceeds the time constraint. </br>
 2. The second version is implementing a descending queue using **double-ended queue with $O(n)$ time complexity**. Another name of this special data structure is **monotonic queue**. The ***essence*** is that:
    1.  when iterating from the **small index to large index**, if a number with low index is smaller than the number with higehr index, it will be **impossible** to occur in the result. To understand this, we should consider that the sliding window is a range from a small index to a large index, the lower index number will quit the window first, so if it is large, it is possible to occur in the result, but if it is small, it will never occur in the result since the latter number will always be over it.</br>
    2. However, how do we know that the large number, the front of the queue, is still in the sliding window? :

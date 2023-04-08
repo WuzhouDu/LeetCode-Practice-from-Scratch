@@ -42,6 +42,7 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     4. [valid-parentheses](#valid-parentheses) </br>
     5. [evaluate-reverse-polish-notation](#evaluate-reverse-polish-notation) </br>
     6. [sliding-window-maximum](#sliding-window-maximum) </br>
+    7. [top-k-frequent-elements](#top-k-frequent-elements) </br>
 
 # Array
 ## Binary Search
@@ -398,3 +399,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
     In this line of code, the **<** sign can not be **<=**. If it is **<=**, the numbers that are equal to the new number will be deleted, but when the input case is like: [-7,-8,7,5,7,1,6,0] and k = 4, the problem rises. Since we delete the repeated **7**, when it quits the queue, all the **7** quits and this is not we want. 
     </br>
 
+## top-k-frequent-elements
+> I have no idea how to implement $O(nlogn)$ time complexity algo in this problem. </br>
+> Answer link: [top-k-frequent-elements](Stack-and-Queue/top-k-frequent-elements/top-k-frequent-elements.cpp) </br>
+> The analysis is here (**much more deailed and clear than me and I need to reimplement this problem later**): https://leetcode.cn/problems/top-k-frequent-elements/solution/qian-k-ge-gao-pin-yuan-su-by-leetcode-solution/

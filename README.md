@@ -47,6 +47,7 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     1. [binary-tree-preorder-traversal](#binary-tree-preorder-traversal) </br>
     2. [binary-tree-inorder-traversal](#binary-tree-inorder-traversal) </br>
     3. [binary-tree-postorder-traversal](#binary-tree-postorder-traversal) </br>
+    4. [binary-tree-level-order-traversal](#binary-tree-level-order-traversal) </br>
 
 # Array
 ## Binary Search
@@ -437,3 +438,12 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
    5. From above, we can see that the three different traversal orders bring different styles of code. </br>
    6. However, in ***Iteration Version2***, all three traversal orders have similar and consistent styles. Here, we use the **null pointer markinig** method. We add a null pointer before the already-traversed nodes so that they should be added to the result.</br>
 > 迭代法的核心难点就在于，如何判断这个节点是否已经遍历过了。用空指针标记法就可以很好的统一代码结构。
+
+## binary-tree-level-order-traversal
+> **Recursive** version: [binary-tree-level-order-traversal](Binary-Tree/binary-tree-level-order-traversal/binary-tree-level-order-traversal.cpp) </br>
+> **Iteration Version**: [binary-tree-level-order-traversal2](Binary-Tree/binary-tree-level-order-traversal/binary-tree-level-order-traversal2.cpp)
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/), [English Version](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+
+#### Keys:
+1. Since levelorder traversal is **BFS**, we use **queue** to store the nodes traversed. </br>
+2. In **recursive method**, we use an additional parameter **depth** to indicate the level of the node. </br>

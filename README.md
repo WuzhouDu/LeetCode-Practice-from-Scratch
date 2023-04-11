@@ -43,6 +43,10 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     5. [evaluate-reverse-polish-notation](#evaluate-reverse-polish-notation) </br>
     6. [sliding-window-maximum](#sliding-window-maximum) </br>
     7. [top-k-frequent-elements](#top-k-frequent-elements) </br>
+> **Binary Tree**: </br>
+    1. [binary-tree-preorder-traversal](#binary-tree-preorder-traversal) </br>
+    2. [binary-tree-inorder-traversal](#binary-tree-inorder-traversal) </br>
+    3. [binary-tree-postorder-traversal](#binary-tree-postorder-traversal) </br>
 
 # Array
 ## Binary Search
@@ -403,3 +407,33 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 > I have no idea how to implement $O(nlogn)$ time complexity algo in this problem. </br>
 > Answer link: [top-k-frequent-elements](Stack-and-Queue/top-k-frequent-elements/top-k-frequent-elements.cpp) </br>
 > The analysis is here (**much more deailed and clear than me and I need to reimplement this problem later**): https://leetcode.cn/problems/top-k-frequent-elements/solution/qian-k-ge-gao-pin-yuan-su-by-leetcode-solution/
+
+# Binary Tree
+## binary-tree-preorder-traversal
+> **Recursive** version: [binary-tree-preorder-traversal](Binary-Tree/binary-tree-preorder-traversal/binary-tree-preorder-traversal.cpp) </br>
+> **Iteration Version1**: [binary-tree-preorder-traversal2](Binary-Tree/binary-tree-preorder-traversal/binary-tree-preorder-traversal2.cpp)
+> **Iteration Version2**: [binary-tree-preorder-traversal3](Binary-Tree/binary-tree-preorder-traversal/binary-tree-preorder-traversal3.cpp)
+> Problem Link: [Chinese Version](https://leetcode.cn/problems/binary-tree-preorder-traversal/), [English Version](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+
+## binary-tree-inorder-traversal
+> **Recursive** version: [binary-tree-inorder-traversal](Binary-Tree/binary-tree-inorder-traversal/binary-tree-inorder-traversal.cpp) </br>
+> **Iteration Version1**: [binary-tree-inorder-traversal2](Binary-Tree/binary-tree-inorder-traversal/binary-tree-inorder-traversal2.cpp)
+> **Iteration Version2**: [binary-tree-inorder-traversal3](Binary-Tree/binary-tree-inorder-traversal/binary-tree-inorder-traversal3.cpp)
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/), [English Version](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+
+## binary-tree-postorder-traversal
+> **Recursive** version: [binary-tree-postorder-traversal](Binary-Tree/binary-tree-postorder-traversal/binary-tree-postorder-traversal.cpp) </br>
+> **Iteration Version1**: [binary-tree-postorder-traversal2](Binary-Tree/binary-tree-postorder-traversal/binary-tree-postorder-traversal2.cpp)
+> **Iteration Version2**: [binary-tree-postorder-traversal3](Binary-Tree/binary-tree-postorder-traversal/binary-tree-postorder-traversal3.cpp)
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/), [English Version](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+
+### Keys:
+1. The recursive version is easy to understand. The difference between three kinds of orders is jsut the order of recursion. </br>
+2. The **gist is iteration method 1:**
+   1. We use a **stack** to store the **already-traversed** nodes since this is **DFS** rather than **BFS**. But whether **pushing the nodes to the result** depends on the order of travsersal.</br>
+   2. The **preorder** is **root-left-right**, so we should push the **right** node first and then the **left** node. And the root node can be directly pushed to the result since it is already handled.</br>
+   3. The **inorder** is quite different. Since the order is **left-root-right**, we traverse to root but it cannot be added to the result, rather, the left should be added to result before root. So, we first traverse to the left-most node, then begin to add the node to the result. </br>
+   4. The **postorder** is similar to preorder. </br>
+   5. From above, we can see that the three different traversal orders bring different styles of code. </br>
+   6. However, in ***Iteration Version2***, all three traversal orders have similar and consistent styles. Here, we use the **null pointer markinig** method. We add a null pointer before the already-traversed nodes so that they should be added to the result.</br>
+> 迭代法的核心难点就在于，如何判断这个节点是否已经遍历过了。用空指针标记法就可以很好的统一代码结构。

@@ -443,6 +443,9 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 > **Recursive** version: [binary-tree-level-order-traversal](Binary-Tree/binary-tree-level-order-traversal/binary-tree-level-order-traversal.cpp) </br>
 > **Iteration Version**: [binary-tree-level-order-traversal2](Binary-Tree/binary-tree-level-order-traversal/binary-tree-level-order-traversal2.cpp)
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/), [English Version](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+> Related Problems: 
+> 1.  [binary-tree-right-side-view](https://leetcode.cn/problems/binary-tree-right-side-view/) and [my version](Binary-Tree/binary-tree-level-order-Traversal/binary-tree-right-side-view.cpp)
+> 2. [n-ary-tree-level-order-traversal](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/) and [my version(using ***Null pointer mark method***)](Binary-Tree/binary-tree-level-order-Traversal/n-ary-tree-level-order-traversal.cpp)))
 
 #### Keys:
 1. Since levelorder traversal is **BFS**, we use **queue** to store the nodes traversed. </br>

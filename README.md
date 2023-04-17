@@ -48,6 +48,11 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     2. [binary-tree-inorder-traversal](#binary-tree-inorder-traversal) </br>
     3. [binary-tree-postorder-traversal](#binary-tree-postorder-traversal) </br>
     4. [binary-tree-level-order-traversal](#binary-tree-level-order-traversal) </br>
+    5. [invert-binary-tree](#invert-binary-tree) </br>
+    6. [symmetric-tree](#symmetric-tree) </br>
+    7. [maximum-depth-of-binary-tree](#maximum-depth-of-binary-tree) </br>
+    8. [minimum-depth-of-binary-tree](#minimum-depth-of-binary-tree) </br>
+    9. [count-complete-tree-nodes](#count-complete-tree-nodes) </br>
 
 # Array
 ## Binary Search
@@ -450,3 +455,40 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 #### Keys:
 1. Since levelorder traversal is **BFS**, we use **queue** to store the nodes traversed. </br>
 2. In **recursive method**, we use an additional parameter **depth** to indicate the level of the node. </br>
+
+## Invert Binary Tree
+> My version: [invert-binary-tree](Binary-Tree/invert-binary-tree/invert-binary-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/invert-binary-tree/), [English Version](https://leetcode.com/problems/invert-binary-tree/)
+
+#### Keys:
+1. Use **recursion** or **iteration** to solve this problem. </br>
+2. When using **recursion**, we should use *preorder* or *postorder* traversal to invert the tree. **Inorder** is not applicable since after inverting left and right child (traverse the mid point), the right child will be the original left child. </br>
+
+## Symmetric Tree
+> My version: [symmetric-tree](Binary-Tree/symmetric-tree/symmetric-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/symmetric-tree/), [English Version](https://leetcode.com/problems/symmetric-tree/)
+
+#### Keys:
+1. I use the **level order traversal** method to solve this problem. </br>
+2. Every level, the nodes should be symmetric. So we use a stack to check the symmetry.</br>
+
+
+## Maximum Depth of Binary Tree
+> My version: [maximum-depth-of-binary-tree](Binary-Tree/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/), [English Version](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
+
+## Minimum Depth of Binary Tree
+> My version: [minimum-depth-of-binary-tree](Binary-Tree/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/), [English Version](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+
+#### Keys:
+1. The difference between **maximum depth** and **minimum depth** is illustrated in this graph. ![](Binary-Tree/minimum-depth-of-binary-tree/111.二叉树的最小深度.png) </br>
+
+## Count Complete Tree Nodes
+> My version: [count-complete-tree-nodes](Binary-Tree/count-complete-tree-nodes/count-complete-tree-nodes.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/count-complete-tree-nodes/), [English Version](https://leetcode.com/problems/count-complete-tree-nodes/)
+
+#### Keys:
+1. If using normal **recursion or iteration** method, the time complexity is $O(n)$ and these methods also apply to any normal binary tree. </br>
+2. Utilizing the condition that this is a **complete binary tree**, we can use its property that once we know the depth of the complete binary tree, we get its node number. And if not, just deepening the recursion is ok to get $O(log^2_n)$ time complexity. </br>

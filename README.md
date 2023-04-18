@@ -53,6 +53,7 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     7. [maximum-depth-of-binary-tree](#maximum-depth-of-binary-tree) </br>
     8. [minimum-depth-of-binary-tree](#minimum-depth-of-binary-tree) </br>
     9. [count-complete-tree-nodes](#count-complete-tree-nodes) </br>
+    10. [balanced-binary-tree](#balanced-binary-tree) </br>
 
 # Array
 ## Binary Search
@@ -492,3 +493,12 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 #### Keys:
 1. If using normal **recursion or iteration** method, the time complexity is $O(n)$ and these methods also apply to any normal binary tree. </br>
 2. Utilizing the condition that this is a **complete binary tree**, we can use its property that once we know the depth of the complete binary tree, we get its node number. And if not, just deepening the recursion is ok to get $O(log^2_n)$ time complexity. </br>
+
+## Balanced Binary Tree
+> My first version: [balanced-binary-tree](Binary-Tree/balanced-binary-tree/balanced-binary-tree.cpp) </br>
+> My second version: [balanced-binary-tree2](Binary-Tree/balanced-binary-tree/balanced-binary-tree2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/balanced-binary-tree/), [English Version](https://leetcode.com/problems/balanced-binary-tree/)
+
+#### Keys:
+1. In my **first version**, the time complexity is $O(n^2)$ since I use **recursion** from the **top to down** to solve this problem. That is, for every node traversed, I will **first** calculate whether **this node** is balanced, then consider its **left and right children**. So all the height below this node are calculated, leading to computability waste. </br>
+2. In my **second** version, the time complexity is only $O(n)$ since I use **recursion** from the **bottom to top** to solve this problem. </br>

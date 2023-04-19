@@ -54,6 +54,7 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     8. [minimum-depth-of-binary-tree](#minimum-depth-of-binary-tree) </br>
     9. [count-complete-tree-nodes](#count-complete-tree-nodes) </br>
     10. [balanced-binary-tree](#balanced-binary-tree) </br>
+    11. [binary-tree-paths](#binary-tree-paths) </br>
 
 # Array
 ## Binary Search
@@ -502,3 +503,12 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 #### Keys:
 1. In my **first version**, the time complexity is $O(n^2)$ since I use **recursion** from the **top to down** to solve this problem. That is, for every node traversed, I will **first** calculate whether **this node** is balanced, then consider its **left and right children**. So all the height below this node are calculated, leading to computability waste. </br>
 2. In my **second** version, the time complexity is only $O(n)$ since I use **recursion** from the **bottom to top** to solve this problem. </br>
+
+## binary-tree-paths
+> My version: [binary-tree-paths](Binary-Tree/binary-tree-paths/binary-tree-paths.cpp) </br>
+> Second version: [binary-tree-paths2](Binary-Tree/binary-tree-paths/binary-tree-paths2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/binary-tree-paths/), [English Version](https://leetcode.com/problems/binary-tree-paths/)
+
+#### Keys:
+1. How to manipulate and maintain the **already traversed path**? Use **pass by reference** or not? </br>
+2. My version uses **pass a string vector by reference** and second version uses **pass a string by value**. </br>

@@ -55,6 +55,10 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     9. [count-complete-tree-nodes](#count-complete-tree-nodes) </br>
     10. [balanced-binary-tree](#balanced-binary-tree) </br>
     11. [binary-tree-paths](#binary-tree-paths) </br>
+    12. [sum-of-left-leaves](#sum-of-left-leaves) </br>
+    13. [find-bottom-left-tree-value](#find-bottom-left-tree-value) </br>
+    14. [Path Sum](#path-sum) </br>
+    15. [Path Sum ii](#path-sum-ii) </br>
 
 # Array
 ## Binary Search
@@ -511,4 +515,46 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 #### Keys:
 1. How to manipulate and maintain the **already traversed path**? Use **pass by reference** or not? </br>
-2. My version uses **pass a string vector by reference** and second version uses **pass a string by value**. </br>
+2. My version uses **pass a string vector by reference** and second version uses **pass a string by value**. But the essence is the same: leave the track with marks.</br>
+
+## sum of left leaves
+> My version: [sum-of-left-leaves](Binary-Tree/sum-of-left-leaves/sum-of-left-leaves.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/sum-of-left-leaves/), [English Version](https://leetcode.com/problems/sum-of-left-leaves/)
+
+#### Keys:
+1. The challenge lies on the definition of **left leaves**, which means this node is both a leaf and a left node of the parent.
+2. Pay attention to the conditions of stopping the recursion: we know **this node's left child is a leaf**. So it is not the common case that the **null pointer** is stopping condition.
+
+## Find Bottom Left Tree Value
+> My version: [find-bottom-left-tree-value](Binary-Tree/find-bottom-left-tree-value/find-bottom-left-tree-value.cpp) </br>
+> Version2: [find-bottom-left-tree-value2](Binary-Tree/find-bottom-left-tree-value/find-bottom-left-tree-value2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/find-bottom-left-tree-value/), [English Version](https://leetcode.com/problems/find-bottom-left-tree-value/)
+
+#### Keys:
+1. The most intuitive way is to use **level order traversal** to find the leftmost node of the last level. And this is the version 1.</br>
+2. The second version is to use **recursion**. The key point is to **record the depth** of the current node. If the depth is larger than the maximum depth, then update the maximum depth and the leftmost node value. </br>
+
+## path-sum
+> My version: [path-sum](Binary-Tree/path-sum/path-sum.cpp) </br>
+> problem Link: [Chinese Version](https://leetcode-cn.com/problems/path-sum/), [English Version](https://leetcode.com/problems/path-sum/)
+
+#### Keys:
+1. typical recursion problem. </br>
+
+## path-sum-ii
+> My version: [path-sum-ii](Binary-Tree/path-sum-ii/path-sum-ii.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/path-sum-ii/), [English Version](https://leetcode.com/problems/path-sum-ii/)
+
+#### Keys:
+1. The difference between this problem and the previous one is that this problem requires to return all the paths that sum to a given value. So we have to search for the **whole tree**, which means the recursion function should have no return.</br>
+2. Use **backtracking** to remove the last element in the path vector after the recursion. And **use pass by reference**.</br>
+
+## construct-binary-tree-from-inorder-and-postorder-traversal
+> My version: [construct-binary-tree-from-inorder-and-postorder-traversal](Binary-Tree/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.cpp) </br>
+> Second version: [construct-binary-tree-from-inorder-and-postorder-traversal2](Binary-Tree/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/), [English Version](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+
+#### Keys:
+1. The key point is to find the **pivot node** in the **postorder traversal**. The pivot node in the **inorder** array can divide the array into left child tree and right child tree. </br>
+2. My version does not use the **unordered_map** to store the index of the inorder array. So the searching process has time complexity $O(n)$. What's more, I define two new vectors every recursion which is costly. The optimized one is the second version. </br>
+3. The second version defines a **map** to store the index of the inorder array. So the searching process has time complexity $O(1)$. And the recursion function uses the **range of the inorder and postorder reference** to avoid defining new vectors. </br>

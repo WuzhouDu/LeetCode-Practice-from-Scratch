@@ -59,6 +59,13 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     13. [find-bottom-left-tree-value](#find-bottom-left-tree-value) </br>
     14. [Path Sum](#path-sum) </br>
     15. [Path Sum ii](#path-sum-ii) </br>
+    16. [construct-binary-tree-from-inorder-and-postorder-traversal](#construct-binary-tree-from-inorder-and-postorder-traversal) </br>
+    17. [construct-binary-tree-from-preorder-and-postorder-traversal](#construct-binary-tree-from-preorder-and-postorder-traversal) </br>
+    18. [maximum-binary-tree](#maximum-binary-tree) </br>
+    19. [merge-two-binary-trees](#merge-two-binary-trees) </br>
+    20. [search-in-a-binary-search-tree](#search-in-a-binary-search-tree) </br>
+    21. [validate-binary-search-tree](#validate-binary-search-tree) </br>
+    22. [minimum-absolute-difference-in-bst](#minimum-absolute-difference-in-bst) </br>
 
 # Array
 ## Binary Search
@@ -558,3 +565,48 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 1. The key point is to find the **pivot node** in the **postorder traversal**. The pivot node in the **inorder** array can divide the array into left child tree and right child tree. </br>
 2. My version does not use the **unordered_map** to store the index of the inorder array. So the searching process has time complexity $O(n)$. What's more, I define two new vectors every recursion which is costly. The optimized one is the second version. </br>
 3. The second version defines a **map** to store the index of the inorder array. So the searching process has time complexity $O(1)$. And the recursion function uses the **range of the inorder and postorder reference** to avoid defining new vectors. </br>
+
+## construct-binary-tree-from-preorder-and-postorder-traversal
+> My version: [construct-binary-tree-from-preorder-and-postorder-traversal](Binary-Tree/construct-binary-tree-from-preorder-and-postorder-traversal/construct-binary-tree-from-preorder-and-postorder-traversal.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/), [English Version](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
+
+#### Keys:
+1. From these two problems above, we can get the key to these constructing problems: **find the pivot node**, which means finding the decision boundary of left and right child tree. </br>
+
+## maximum-binary-tree
+> My version: [maximum-binary-tree](Binary-Tree/maximum-binary-tree/maximum-binary-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/maximum-binary-tree/), [English Version](https://leetcode.com/problems/maximum-binary-tree/)
+
+#### Keys:
+1. Similar to the construction of binary tree above, we can find the **pivot node** by finding the **maximum value** in the array. </br>
+
+## merge-two-binary-trees
+> My version: [merge-two-binary-trees](Binary-Tree/merge-two-binary-trees/merge-two-binary-trees.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/merge-two-binary-trees/), [English Version](https://leetcode.com/problems/merge-two-binary-trees/)
+
+#### Keys:
+1. How to handle two trees at the same time? No difference. Just need to process two roots in one recursion. </br>
+
+## search-in-a-binary-search-tree
+> My version: [search-in-a-binary-search-tree](Binary-Tree/search-in-a-binary-search-tree/search-in-a-binary-search-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/), [English Version](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+
+#### Keys:
+1. This is the most basic problem to get familiar with the characteristics of binary search tree. </br> 
+
+## validate-binary-search-tree
+> My version: [validate-binary-search-tree](Binary-Tree/validate-binary-search-tree/validate-binary-search-tree.cpp) </br>
+> second version: [validate-binary-search-tree2](Binary-Tree/validate-binary-search-tree/validate-binary-search-tree2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/validate-binary-search-tree/), [English Version](https://leetcode.com/problems/validate-binary-search-tree/)
+
+#### Keys:
+1. In my first version, I use **from bottom to top** to check the validity of the tree. If the **left and right children are both valid**, then I use the **BST property** to check whether the **left child's max node is smaller than the current**, and so as the right child. So, this is **postorder** traversal. But this induces **some repetition** when finding the max and min node. </br>
+2. Version two handles the reprtition problem. It checks whether the current node's value is in the boundary, and then goes to the left and right child by narrowing the boundary. This is **preorder** traversal.</br>
+
+## minimum-absolute-difference-in-bst
+> My version: [minimum-absolute-difference-in-bst](Binary-Tree/minimum-absolute-difference-in-bst/minimum-absolute-difference-in-bst.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/), [English Version](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
+
+#### Keys:
+1. The naive and my first version is to use **inorder traversal** to get the sorted array, and then calculate the minimum difference. </br>
+2. The second version maintains a **previous node value** to calculate the minimum difference. So there is no need to allocate another $O(n)$ vector to record all the nodes. </br>

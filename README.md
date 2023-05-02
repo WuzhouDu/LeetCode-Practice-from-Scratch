@@ -66,6 +66,10 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     20. [search-in-a-binary-search-tree](#search-in-a-binary-search-tree) </br>
     21. [validate-binary-search-tree](#validate-binary-search-tree) </br>
     22. [minimum-absolute-difference-in-bst](#minimum-absolute-difference-in-bst) </br>
+    23. [find-mode-in-binary-search-tree](#find-mode-in-binary-search-tree) </br>
+    24. [lowest-common-ancestor-of-a-binary-tree](#lowest-common-ancestor-of-a-binary-tree) </br>
+    25. [lowest-common-ancestor-of-a-binary-search-tree](#lowest-common-ancestor-of-a-binary-search-tree) </br>
+    26. [insert-into-a-binary-search-tree](#insert-into-a-binary-search-tree) </br>
 
 # Array
 ## Binary Search
@@ -610,3 +614,33 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 #### Keys:
 1. The naive and my first version is to use **inorder traversal** to get the sorted array, and then calculate the minimum difference. </br>
 2. The second version maintains a **previous node value** to calculate the minimum difference. So there is no need to allocate another $O(n)$ vector to record all the nodes. </br>
+
+## find-mode-in-binary-search-tree
+> My version: [find-mode-in-binary-search-tree](Binary-Tree/find-mode-in-binary-search-tree/find-mode-in-binary-search-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/), [English Version](https://leetcode.com/problems/find-mode-in-binary-search-tree/)
+
+#### Keys:
+1. Use **inorder traversal** to get the sorted array, and then store a global maximum frequency to help get the mode during the traversal process. </br>
+
+## lowest-common-ancestor-of-a-binary-tree
+> My version: [lowest-common-ancestor-of-a-binary-tree](Binary-Tree/lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.cpp) </br>
+> Second version: [lowest-common-ancestor-of-a-binary-tree2](Binary-Tree/lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/), [English Version](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+
+#### Keys:
+1. The two versions are actually the same, but the second version is more concise. </br>
+2. Both use the thought of **from the bottom to the top**. If the current node is the **lowest common ancestor**, then it must satisfy that **the left and right child are both marked by the program**. </br>
+
+## lowest-common-ancestor-of-a-binary-search-tree
+> My version: [lowest-common-ancestor-of-a-binary-search-tree](Binary-Tree/lowest-common-ancestor-of-a-binary-search-tree/lowest-common-ancestor-of-a-binary-search-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), [English Version](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+#### Keys:
+1. The thought is the same as the previous problem. But this time, we can use the **BST property** to help us find the lowest common ancestor. </br>
+
+## insert-into-a-binary-search-tree
+> My version: [insert-into-a-binary-search-tree](Binary-Tree/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/), [English Version](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
+
+#### Keys:
+1. This problem is just simulating the process of searching the node in the BST. If the node is not found, then we can insert the node at the leaf. </br>

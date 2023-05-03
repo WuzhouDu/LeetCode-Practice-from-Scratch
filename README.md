@@ -70,6 +70,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     24. [lowest-common-ancestor-of-a-binary-tree](#lowest-common-ancestor-of-a-binary-tree) </br>
     25. [lowest-common-ancestor-of-a-binary-search-tree](#lowest-common-ancestor-of-a-binary-search-tree) </br>
     26. [insert-into-a-binary-search-tree](#insert-into-a-binary-search-tree) </br>
+    27. [delete-node-in-a-bst](#delete-node-in-a-bst) </br>
+    28. [trim-a-binary-search-tree](#trim-a-binary-search-tree) </br>
 
 # Array
 ## Binary Search
@@ -644,3 +646,31 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 #### Keys:
 1. This problem is just simulating the process of searching the node in the BST. If the node is not found, then we can insert the node at the leaf. </br>
+
+## delete-node-in-a-bst
+> My version: [delete-node-in-a-bst](Binary-Tree/delete-node-in-a-bst/delete-node-in-a-bst.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/delete-node-in-a-bst/), [English Version](https://leetcode.com/problems/delete-node-in-a-bst/)
+
+#### Keys:
+1. This problem requires us to consider different cases. But the thought is naive. So, taking every case into consideration is ok. </br>
+
+## trim-a-binary-search-tree
+> My version: [trim-a-binary-search-tree](Binary-Tree/trim-a-binary-search-tree/trim-a-binary-search-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/trim-a-binary-search-tree/), [English Version](https://leetcode.com/problems/trim-a-binary-search-tree/)
+
+#### Keys:
+1. To solve this problem, you have to understand the **recursion function with TreeNode as the return value**. This thought also applies to the [delete BST](#delete-node-in-a-bst) and [insert BST](#insert-into-a-binary-search-tree), where I use the iteration method instead.</br>
+
+## convert-sorted-array-to-binary-search-tree
+> My version: [convert-sorted-array-to-binary-search-tree](Binary-Tree/convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/), [English Version](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+
+#### Keys:
+1. With the keys in [trim BST](#trim-a-binary-search-tree), we can solve this problem. </br>
+
+## convert-bst-to-greater-tree
+> My version: [convert-bst-to-greater-tree](Binary-Tree/convert-bst-to-greater-tree/convert-bst-to-greater-tree.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/), [English Version](https://leetcode.com/problems/convert-bst-to-greater-tree/)
+
+#### Keys:
+1. Use **reverse inorder traversal** to solve this problem. </br>

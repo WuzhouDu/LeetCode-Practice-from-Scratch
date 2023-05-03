@@ -72,6 +72,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     26. [insert-into-a-binary-search-tree](#insert-into-a-binary-search-tree) </br>
     27. [delete-node-in-a-bst](#delete-node-in-a-bst) </br>
     28. [trim-a-binary-search-tree](#trim-a-binary-search-tree) </br>
+    29. [convert-sorted-array-to-binary-search-tree](#convert-sorted-array-to-binary-search-tree) </br>
+    30. [convert-bst-to-greater-tree](#convert-bst-to-greater-tree) </br>
 
 # Array
 ## Binary Search

@@ -74,6 +74,10 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     28. [trim-a-binary-search-tree](#trim-a-binary-search-tree) </br>
     29. [convert-sorted-array-to-binary-search-tree](#convert-sorted-array-to-binary-search-tree) </br>
     30. [convert-bst-to-greater-tree](#convert-bst-to-greater-tree) </br>
+>   **Backtracking**: </br>
+    1. [combinations](#combinations) </br>
+    2. [combination-sum-iii](#combination-sum-iii) </br>
+    3. [letter-combinations-of-a-phone-number](#letter-combinations-of-a-phone-number) </br>
 
 # Array
 ## Binary Search
@@ -676,3 +680,29 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 #### Keys:
 1. Use **reverse inorder traversal** to solve this problem. </br>
+
+# Backtracking
+## Combinations
+> My version: [Combinations](Backtracking/Combinations/Combinations.cpp) </br>
+> Second version: [Combinations2](Backtracking/Combinations/Combinations2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/combinations/), [English Version](https://leetcode.com/problems/combinations/)
+
+#### Keys:
+1. The intuitive way is to use iteration for k times. But k is a parameter. Use backtracing (recursion) to solve it. </br>
+2. To optimize it, the second version can avoid the cases that **the whole searching space is less than the required size**.
+
+## combination-sum-iii
+> My version: [combination-sum-iii](Backtracking/combination-sum-iii/combination-sum-iii.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/combination-sum-iii/), [English Version](https://leetcode.com/problems/combination-sum-iii/)
+
+#### Keys:
+1. This problem is very similar to the previous one. No need more talking.
+
+## letter-combinations-of-a-phone-number
+> My version: [letter-combinations-of-a-phone-number](Backtracking/letter-combinations-of-a-phone-number/letter-combinations-of-a-phone-number.cpp) </br>
+> Second version: [letter-combinations-of-a-phone-number2](Backtracking/letter-combinations-of-a-phone-number/letter-combinations-of-a-phone-number2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/), [English Version](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+
+#### Keys:
+1. My first version is very long because I use **switch** to handle the different cases. </br>
+2. The second version is more concise. It uses **map** to store the corresponding letters. But the core idea is the same. </br>

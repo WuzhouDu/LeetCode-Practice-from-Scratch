@@ -78,6 +78,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     1. [combinations](#combinations) </br>
     2. [combination-sum-iii](#combination-sum-iii) </br>
     3. [letter-combinations-of-a-phone-number](#letter-combinations-of-a-phone-number) </br>
+    4. [combination-sum](#combination-sum) </br>
+    5. [combination-sum-ii](#combination-sum-ii)
 
 # Array
 ## Binary Search
@@ -706,3 +708,38 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 #### Keys:
 1. My first version is very long because I use **switch** to handle the different cases. </br>
 2. The second version is more concise. It uses **map** to store the corresponding letters. But the core idea is the same. </br>
+
+## combination-sum
+> My version: [combination-sum](Backtracking/combination-sum/combination-sum.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/combination-sum/), [English Version](https://leetcode.com/problems/combination-sum/)
+
+#### Keys:
+1. This problem is a little bit different from above combination sum. Since the elements in combinations can be repeated. </br>
+
+## combination-sum-ii
+> My version: [combination-sum-ii](Backtracking/combination-sum-ii/combination-sum-ii.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/combination-sum-ii/), [English Version](https://leetcode.com/problems/combination-sum-ii/)
+
+#### Keys:
+1. The difficult point lies in that the candidates include **repetitive elements**, while the answer should **not include repetitive elemetns**. </br>
+2. The answer has a very similar idea with [4sum](#4sum): see here
+    ```cpp
+    if ( j > i+1 && nums[j] == nums[j-1]) continue;
+    ```
+    and
+    ```cpp
+    if (i > start && candidates[i] == candidates[i-1]) continue;
+    ```
+    almost the same! </br>
+3. **The [answer](https://www.programmercarl.com/0040.%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8CII.html#%E5%9B%9E%E6%BA%AF%E4%B8%89%E9%83%A8%E6%9B%B2) here has a great explanation of how to avoid repitition.** </br>
+
+## palindrome-partitioning
+> My version: [palindrome-partitioning](Backtracking/palindrome-partitioning/palindrome-partitioning.cpp) </br>
+> Second version: [palindrome-partitioning2](Backtracking/palindrome-partitioning/palindrome-partitioning2.cpp) </br>
+> Third version: [palindrome-partitioning3](Backtracking/palindrome-partitioning/palindrome-partitioning3.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/palindrome-partitioning/), [English Version](https://leetcode.com/problems/palindrome-partitioning/)
+
+#### Keys:
+1. In my first version, my thought is that: every time I meet with a new letter, I will decide whether this place can be divided according to the judgement of Palindrome. If it is, then it can be divided. This incurs two paths, one is division and the other is to continue. </br>
+2. The second version is more concise. It uses the template **similar to all the backtracking problems above**. The thought is different as well: **the path division lies on where the cutting point is, rather than at each point it is cut or not.** The code difference lies on the backtracking part. </br>
+3. The third version is the same as the second version, but it uses **dynamic programming** to preprocess the palindrome information. </br>

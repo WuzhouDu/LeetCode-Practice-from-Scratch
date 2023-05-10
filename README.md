@@ -80,6 +80,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     3. [letter-combinations-of-a-phone-number](#letter-combinations-of-a-phone-number) </br>
     4. [combination-sum](#combination-sum) </br>
     5. [combination-sum-ii](#combination-sum-ii)
+    6. [restore-ip-addresses](#restore-ip-addresses) </br>
+    7. [subsets](#subsets) </br>
 
 # Array
 ## Binary Search
@@ -743,3 +745,18 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 1. In my first version, my thought is that: every time I meet with a new letter, I will decide whether this place can be divided according to the judgement of Palindrome. If it is, then it can be divided. This incurs two paths, one is division and the other is to continue. </br>
 2. The second version is more concise. It uses the template **similar to all the backtracking problems above**. The thought is different as well: **the path division lies on where the cutting point is, rather than at each point it is cut or not.** The code difference lies on the backtracking part. </br>
 3. The third version is the same as the second version, but it uses **dynamic programming** to preprocess the palindrome information. </br>
+
+## restore-ip-addresses
+> My version: [restore-ip-addresses](Backtracking/restore-ip-addresses/restore-ip-addresses.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/restore-ip-addresses/), [English Version](https://leetcode.com/problems/restore-ip-addresses/)
+
+#### Keys:
+1. still the same thought as above. But pay attention to **string modification**. </br>
+
+## subsets
+> My version: [subsets](Backtracking/subsets/subsets.cpp) </br>
+> Second version: [subsets2](Backtracking/subsets/subsets2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/subsets/), [English Version](https://leetcode.com/problems/subsets/)
+
+#### Keys:
+1. this problem is different from above. Here, I have to collect **all the nodes in the traversal tree**, rather than **only the leaf nodes** like the problems above. The answer link has a clear demonstration: https://www.programmercarl.com/0078.%E5%AD%90%E9%9B%86.html#%E5%9B%9E%E6%BA%AF%E4%B8%89%E9%83%A8%E6%9B%B2

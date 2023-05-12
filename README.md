@@ -82,6 +82,9 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     5. [combination-sum-ii](#combination-sum-ii)
     6. [restore-ip-addresses](#restore-ip-addresses) </br>
     7. [subsets](#subsets) </br>
+    8. [subsets-ii](#subsets-ii) </br>
+    9. [non-decreasing-subsequences](#non-decreasing-subsequences) </br>
+    10. [permutations](#permutations) </br>
 
 # Array
 ## Binary Search
@@ -760,3 +763,29 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 #### Keys:
 1. this problem is different from above. Here, I have to collect **all the nodes in the traversal tree**, rather than **only the leaf nodes** like the problems above. The answer link has a clear demonstration: https://www.programmercarl.com/0078.%E5%AD%90%E9%9B%86.html#%E5%9B%9E%E6%BA%AF%E4%B8%89%E9%83%A8%E6%9B%B2
+   
+## subsets-ii
+> My version: [subsets-ii](Backtracking/subsets-ii/subsets-ii.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/subsets-ii/), [English Version](https://leetcode.com/problems/subsets-ii/)
+
+#### Keys:
+1. apply the thought of [subsets](#subsets) and [repetition avoidance](#combination-sum-ii) to solve this problem. </br>
+
+## non-decreasing-subsequences
+> My version: [non-decreasing-subsequences](Backtracking/non-decreasing-subsequences/non-decreasing-subsequences.cpp) </br> ==this version cannot pass==
+> Second version: [non-decreasing-subsequences2](Backtracking/non-decreasing-subsequences/non-decreasing-subsequences2.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/increasing-subsequences/), [English Version](https://leetcode.com/problems/increasing-subsequences/)
+
+#### Keys:
+1. My first version cannot pass, since this version still uses the same **avoidance of repetition** method:
+```cpp
+if (i > start && candidates[i] == candidates[i-1]) continue;
+```
+as above. But this method has an **assumption: the array is in order**. But this problem does not have this assumption. So, we have to record an array **bit_vec** to avoid repetition in this tree depth. </br>
+
+## permutations
+> My version: [permutations](Backtracking/permutations/permutations.cpp) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/permutations/), [English Version](https://leetcode.com/problems/permutations/)
+
+#### Keys:
+1. This problem is similar to [subsets](#subsets). But the difference is that the **order** of the elements in the array matters. So, we have to use **visited array** to record the elements that have been visited. </br>

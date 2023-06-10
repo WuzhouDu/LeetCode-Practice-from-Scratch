@@ -85,6 +85,7 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     8. [subsets-ii](#subsets-ii) </br>
     9. [non-decreasing-subsequences](#non-decreasing-subsequences) </br>
     10. [permutations](#permutations) </br>
+    11. [permutations-ii](#permutations-ii) </br>
 
 # Array
 ## Binary Search
@@ -789,3 +790,10 @@ as above. But this method has an **assumption: the array is in order**. But this
 
 #### Keys:
 1. This problem is similar to [subsets](#subsets). But the difference is that the **order** of the elements in the array matters. So, we have to use **visited array** to record the elements that have been visited. </br>
+
+## permutations-ii
+> My version: [permutations-ii](Backtracking/permutations-ii/permutations-ii.js) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/permutations-ii/), [English Version](https://leetcode.com/problems/permutations-ii/)
+
+#### Keys:
+1. Maintain a global variable to record the used **index**. Then, in every depth of the backtrack, maintain a local variable to record the used **element**. Pay attention that in every depth, the specific number should not overlap. </br>

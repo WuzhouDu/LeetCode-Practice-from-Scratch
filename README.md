@@ -86,6 +86,9 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     9. [non-decreasing-subsequences](#non-decreasing-subsequences) </br>
     10. [permutations](#permutations) </br>
     11. [permutations-ii](#permutations-ii) </br>
+    12. [reconstruct-itinerary](#reconstruct-itinerary) </br>
+    13. [N-Queens](#n-queens) </br>
+    14. [sudoku-solver](#sudoku-solver) </br>
 
 # Array
 ## Binary Search
@@ -797,3 +800,26 @@ as above. But this method has an **assumption: the array is in order**. But this
 
 #### Keys:
 1. Maintain a global variable to record the used **index**. Then, in every depth of the backtrack, maintain a local variable to record the used **element**. Pay attention that in every depth, the specific number should not overlap. </br>
+
+## reconstruct-itinerary
+> First version: [reconstruct-itinerary](Backtracking/reconstruct-itinerary/reconstruct-itinerary1.js) </br>
+> Second version: [reconstruct-itinerary2](Backtracking/reconstruct-itinerary/reconstruct-itinerary2.js) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/reconstruct-itinerary/), [English Version](https://leetcode.com/problems/reconstruct-itinerary/)
+
+#### Keys:
+1. In fact, this problem can also be solved by backtracking. But if adding all available path and finally sort them the memory limit will be exceeded like first version. So, we have to search for those destinations with smaller dictionary order to solve this problem. </br>
+2. In the second version, for every depth of backtracking, the **available path** is sorted. So, the first path is the one with the smallest dictionary order. And search those one by one then return as long as find one valid path.</br>
+
+## N-Queens
+> My version: [N-Queens](Backtracking/N-Queens/N-Queens.js) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/n-queens/), [English Version](https://leetcode.com/problems/n-queens/)
+
+#### Keys:
+1. easy problem. </br>
+
+## sudoku-solver
+> My version: [sudoku-solver](Backtracking/sudoku-solver/sudoku-solver.js) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/sudoku-solver/), [English Version](https://leetcode.com/problems/sudoku-solver/)
+
+#### Keys:
+1. easy problem. just simulate the process. </br>

@@ -89,6 +89,13 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     12. [reconstruct-itinerary](#reconstruct-itinerary) </br>
     13. [N-Queens](#n-queens) </br>
     14. [sudoku-solver](#sudoku-solver) </br>
+>   **Greeding**: </br>
+    1. [wiggle-subsequence](#wiggle-subsequence) <br>
+    2. [maximum-subarray](#maximum-subarray) </br>
+    3. [best-time-to-buy-and-sell-stock-ii](#best-time-to-buy-and-sell-stock-ii) </br>
+    4. [jump-game](#jump-game) </br>
+    5. [jump-game-ii](#jump-game-ii) </br>
+    6. [maximize-sum-of-array-after-k-negations](#maximize-sum-of-array-after-k-negations) </br>
 
 # Array
 ## Binary Search
@@ -823,3 +830,49 @@ as above. But this method has an **assumption: the array is in order**. But this
 
 #### Keys:
 1. easy problem. just simulate the process. </br>
+
+
+# Greeding
+## Wiggle subsequence
+> My version: [wiggle-subsequence](Greeding/wiggle-subsequence/wiggle-subsequence.js) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/wiggle-subsequence/), [English Version](https://leetcode.com/problems/wiggle-subsequence/)
+
+#### Keys:
+1. consider the equality condition.
+2. consider the series is monotonic in one direction. In this case you cannot instantly update the maximum length. You have to wait until the series changes its direction. </br>
+
+## maximum-subarray
+> My version: [maximum-subarray](Greeding/maximum-subarray/maximum-subarray.js) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/maximum-subarray/), [English Version](https://leetcode.com/problems/maximum-subarray/)
+
+#### keys:
+1. The key point is to find the **maximum subarray ending with the current element**. </br>
+
+
+## Best Time to Buy and Sell Stock ii
+> My version: [Best Time to Buy and Sell Stock ii](Greeding/Best-Time-to-Buy-and-Sell-Stock-ii/Best-Time-to-Buy-and-Sell-Stock-ii.js) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/), [English Version](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+
+#### Keys:
+1. The most profitable way is to buy at the lowest price and sell at the highest price. **But the easy way to do so is to buy the stock as long as the next day's price is higher. Then at the next day we can sell it.** （因为同一天可以卖了又买） Local optimization brings global maximization. </br>
+
+## Jump Game
+> My version: [Jump Game](Greeding/Jump-Game/Jump-Game.js) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/jump-game/), [English Version](https://leetcode.com/problems/jump-game/)
+
+#### keys:
+nothing to say... only way to solve greeding problem is by thinking greedingly but properly. </br>
+
+## Jump Game ii
+> My version: [Jump Game ii](Greeding/Jump-Game-ii/Jump-Game-ii.js) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/jump-game-ii/), [English Version](https://leetcode.com/problems/jump-game-ii/)
+
+#### Keys:
+1. 走一步之前，看走一步之后能走到的最远距离。找到可能走到最远的那一步就可以。 </br>
+
+## maximize-sum-of-array-after-k-negations
+> My version: [maximize-sum-of-array-after-k-negations](Greeding/maximize-sum-of-array-after-k-negations/maximize-sum-of-array-after-k-negations.js) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/), [English Version](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)
+
+#### Keys:
+1. greedy: always choose the negative element with largest absolute value to negate. Then choose the smallest positive number to negate.</br>

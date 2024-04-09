@@ -1,5 +1,7 @@
 # LeetCode-Practice-from-Scratch
-This repo is created to record my process of practicing LeetCode coding problems.
+This repo is created to record my process of practicing LeetCode coding problems. 
+> update 2024.4.8:
+> After a long silence, I'd like to pick up the problems and start from the beginning.
 
 # Acknowledgement
 Thanks to [代码随想录](https://www.programmercarl.com) for giving a detailed instruction on **how to choose the problems** and in what **order** to solve them. I am following this guide to practice LeetCode problems.
@@ -96,10 +98,12 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     4. [jump-game](#jump-game) </br>
     5. [jump-game-ii](#jump-game-ii) </br>
     6. [maximize-sum-of-array-after-k-negations](#maximize-sum-of-array-after-k-negations) </br>
+    7. [assign-cookies]
 
 # Array
 ## Binary Search
 > My first version: [Binary Search](Array/binary_search/binary_search.py) </br>
+> 2024-4-8: [Binary Search](Array/binary_search/binary_search_240408.py) </br>
 > Problem Link: [Chinese Version](https://leetcode.cn/problems/binary-search/), [English Version](https://leetcode.com/problems/binary-search/)
 #### Missing Keys:
 1. when calculating the 'middle', I did not consider **overflowing of the integer type**, using 
@@ -118,6 +122,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 #### Applications: 
 1. **Search Insert Position:**
     > My first version: [Search Insert Position](Array/binary_search/search-insert-position.cpp) </br>
+    > 2024-4-8: [Search Insert Position](Array/binary_search/search-insert-position-240408.py) </br>
     > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/search-insert-position/), [English Version](https://leetcode.com/problems/search-insert-position/)
 
     **Why Using Binary Search:**
@@ -126,8 +131,12 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
     **Key**: Classify the different situations of the target number and consider the corner cases.
 
+#### Any followup?
+1. I wonder if there is any problem considering the case where the array is sorted but the element is not unique? And the problem asks us to return the first element. 
+
 ## Remove Element
 > My first version: [Remove Elements](Array/remove_element/remove-element.cpp) </br>
+> 2024-04-08: [Remove Elements](Array/remove_element/remove-element-240408.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/remove-element/), [English Version](https://leetcode.com/problems/remove-element/)
 
 #### Keys:
@@ -147,6 +156,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 #### Applications:
 1. **Remove Duplicates from Sorted Array**
     > My first version: [Remove Duplicates from Sorted Array](Array/remove_element/remove-duplicates-from-sorted-array.cpp) </br>
+    > 2024-04-08: [Remove Duplicates from Sorted Array](Array/remove_element/remove-duplicates-from-sorted-array-240408.py) </br>
     > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/), [English Version](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
     
     **Why Using Two Pointers Method:**: the array is sorted in **non-descending order**. So the duplicated elements are adjacent to each other. </br>
@@ -155,6 +165,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 ## Squares of a Sorted Array
 > My first version: [Squares of a Sorted Array](Array/squares_of_a_sorted_array/squares_of_a_sorted_array.cpp) </br>
 > Second version: [Squares of a Sorted Array2](Array/squares_of_a_sorted_array/squares_of_a_sorted_array2.cpp) </br>
+> 2024-04-08: [Squares of a Sorted Array](Array/squares_of_a_sorted_array/squares_of_a_sorted_array_240408.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/squares-of-a-sorted-array/), [English Version](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
 #### Keys: (Two Pointers Method)
@@ -164,6 +175,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 ## Miminum Size Subarray Sum
 > My first version: [Minimum Size Subarray Sum](Array/minimum_size_subarray_sum/minimum_size_subarray_sum.cpp) *This first version cannot pass the unit tests provided by LeetCode.* </br>
 > Second version: [Minimum Size Subarray Sum2](Array/minimum_size_subarray_sum/minimum_size_subarray_sum2.cpp) </br>
+> 2024-04-08: [Minimum Size Subarray Sum](Array/minimum_size_subarray_sum/minimum_size_subarray_sum_240408.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/minimum-size-subarray-sum/), [English Version](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
 #### Keys: Sliding Window (Still Two Pointers Method)
@@ -174,6 +186,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 1. **fruit into baskets**:
    > My first version: [fruit into baskets](Array/fruit-into-baskets/fruit-into-baskets.cpp) *This version cannot pass all the tests due to the time limit exceediing.* </br>
    > Second version: [fruit into baskets2](Array/fruit-into-baskets/fruit-into-baskets2.cpp) </br>
+   > 2024-04-09: [fruit into baskets](Array/fruit-into-baskets/fruit-into-baskets_240409.py) </br>
    > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/fruit-into-baskets/), [English Version](https://leetcode.com/problems/fruit-into-baskets/)
 
    **Keys**:
@@ -182,6 +195,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## Spiral Matrix
 > My first version: [Spiral Matrix](Array/spiral-matrix-ii/spiral-matrix-ii.cpp) </br>
+> 2024-04-09: [Spiral Matrix](Array/spiral-matrix-ii/spiral-matrix-ii_240409.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/spiral-matrix-ii/), [English Version](https://leetcode.com/problems/spiral-matrix-ii/)
 
 #### Keys:

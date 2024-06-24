@@ -137,6 +137,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 ## Remove Element
 > My first version: [Remove Elements](Array/remove_element/remove-element.cpp) </br>
 > 2024-04-08: [Remove Elements](Array/remove_element/remove-element-240408.py) </br>
+> 2024-06-24: [Remove Elements](Array/remove_element/remove-element-240624.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/remove-element/), [English Version](https://leetcode.com/problems/remove-element/)
 
 #### Keys:
@@ -157,10 +158,19 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 1. **Remove Duplicates from Sorted Array**
     > My first version: [Remove Duplicates from Sorted Array](Array/remove_element/remove-duplicates-from-sorted-array.cpp) </br>
     > 2024-04-08: [Remove Duplicates from Sorted Array](Array/remove_element/remove-duplicates-from-sorted-array-240408.py) </br>
+    > 2024-06-24: [Remove Duplicates from Sorted Array](Array/remove_element/remove-duplicates-240624.py) </br> 
     > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/), [English Version](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
     
     **Why Using Two Pointers Method:**: the array is sorted in **non-descending order**. So the duplicated elements are adjacent to each other. </br>
     **Think about when the array is not sorted:** the array is not sorted in **non-descending order**. So the duplicated elements are not adjacent to each other. In this case, we can use **Hash Table** to solve the problem. But the time complexity is O(n) and the space complexity is O(n).
+
+2. **Move Zeroes**
+    > 2024-06-24: [Move Zeroes](Array/remove_element/move-zeroes-240624.py) </br>
+    **key:** the same as removing elements (and the val = 0) in the array.
+
+3. **Backspace String Compare**
+    > 2024-06-24: [Backspace String Compare](Array/remove_element/backspace-string-compare-240624.py) </br>
+    **key:** from the *end to the start*, and use two pointers to compare the two strings.
 
 ## Squares of a Sorted Array
 > My first version: [Squares of a Sorted Array](Array/squares_of_a_sorted_array/squares_of_a_sorted_array.cpp) </br>

@@ -176,6 +176,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 > My first version: [Squares of a Sorted Array](Array/squares_of_a_sorted_array/squares_of_a_sorted_array.cpp) </br>
 > Second version: [Squares of a Sorted Array2](Array/squares_of_a_sorted_array/squares_of_a_sorted_array2.cpp) </br>
 > 2024-04-08: [Squares of a Sorted Array](Array/squares_of_a_sorted_array/squares_of_a_sorted_array_240408.py) </br>
+> 2024-06-25: [Squares of a Sorted Array](Array/squares_of_a_sorted_array/squares_of_a_sorted_array_240625.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/squares-of-a-sorted-array/), [English Version](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
 #### Keys: (Two Pointers Method)
@@ -186,6 +187,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 > My first version: [Minimum Size Subarray Sum](Array/minimum_size_subarray_sum/minimum_size_subarray_sum.cpp) *This first version cannot pass the unit tests provided by LeetCode.* </br>
 > Second version: [Minimum Size Subarray Sum2](Array/minimum_size_subarray_sum/minimum_size_subarray_sum2.cpp) </br>
 > 2024-04-08: [Minimum Size Subarray Sum](Array/minimum_size_subarray_sum/minimum_size_subarray_sum_240408.py) </br>
+> 2024-06-25: [Minimum Size Subarray Sum](Array/minimum_size_subarray_sum/minimum_size_subarray_sum_240625.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/minimum-size-subarray-sum/), [English Version](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
 #### Keys: Sliding Window (Still Two Pointers Method)
@@ -202,6 +204,9 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
    **Keys**:
    1. In my **first version**, the thought is simple: for every start point, there is only one situation for the number of fruits, so I just need to **iterate all the start points**, i.e. from start to the end, to find the most fruits I can get. But obviously, this can lead to O($n^2$) time complexity.
    2. Applying the thought of **sliding window**, I modify my first version into the second version. The essence is very similar to the previous problem. But this question chooses **iterating the end pointer rather than the start pointer**. Actually, I find that it is more convenient to iterate the end pointer in **sliding window**.</br>
+
+2. **minimum-window-substring**:
+    > 2024-06-25: [minimum-window-substring](Array/minimum-window-substring/minimum-window-substring_240625.py) </br>
 
 ## Spiral Matrix
 > My first version: [Spiral Matrix](Array/spiral-matrix-ii/spiral-matrix-ii.cpp) </br>

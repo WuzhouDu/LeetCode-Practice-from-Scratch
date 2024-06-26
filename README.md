@@ -211,7 +211,10 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 ## Spiral Matrix
 > My first version: [Spiral Matrix](Array/spiral-matrix-ii/spiral-matrix-ii.cpp) </br>
 > 2024-04-09: [Spiral Matrix](Array/spiral-matrix-ii/spiral-matrix-ii_240409.py) </br>
+> 2024-06-26: [Spiral Matrix](Array/spiral-matrix-ii/spiral-matrix-ii_240626.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/spiral-matrix-ii/), [English Version](https://leetcode.com/problems/spiral-matrix-ii/)
+> Another: [Chinese Version](https://leetcode-cn.com/problems/spiral-matrix/), [English Version](https://leetcode.com/problems/spiral-matrix/)
+> 2024-06-25: [Spiral Matrix](Array/spiral-matrix-ii/spiral-matrix_240626.py) </br>
 
 #### Keys:
    1. **Iterate the matrix layer by layer**. </br>
@@ -224,6 +227,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 ## Remove Linked List Elements
 > My first version: [Remove Linked List Elements](List/remove-linked-list-elements/remove-linked-list-elements.cpp) *This version cannot pass the test.* (太菜了┭┮﹏┭┮)</br>
 > My second version: [Remove Linked List Elements2](List/remove-linked-list-elements/remove-linked-list-elements2.cpp) </br>
+> 2024-06-26: [Remove Linked List Elements](List/remove-linked-list-elements/remove-linked-list-elements_240626.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/remove-linked-list-elements/), [English Version](https://leetcode.com/problems/remove-linked-list-elements/)
 
 #### Keys
@@ -247,6 +251,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 ## Design Linked List
 > My first version: [Design Linked List](List/design-linked-list/design-linked-list.cpp) </br>
 > Second version: [Design Linked List2](List/design-linked-list/design-linked-list2.cpp) </br>
+> 2024-06-26: [Design Linked List](List/design-linked-list/design-linked-list_240626.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/design-linked-list/), [English Version](https://leetcode.com/problems/design-linked-list/)
 
 #### Keys
@@ -255,6 +260,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## Reverse Linked List
 > My first version: [Reverse Linked List](List/reverse-linked-list/reverse-linked-list.cpp) </br>
+> 2024-06-26: [Reverse Linked List](List/reverse-linked-list/reverse-linked-list_240626.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/reverse-linked-list/), [English Version](https://leetcode.com/problems/reverse-linked-list/)
 
 #### Keys

@@ -268,6 +268,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## Swap Nodes in Pairs
 > My first version: [Swap Nodes in Pairs](List/swap-nodes-in-pairs/swap-nodes-in-pairs.cpp) </br>
+> 2024-06-27: [Swap Nodes in Pairs](List/swap-nodes-in-pairs/swap-nodes-in-pairs_240627.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/swap-nodes-in-pairs/), [English Version](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 #### Keys
@@ -277,6 +278,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## Remove Nth Node From End of List
 > My first version: [Remove Nth Node From End of List](List/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.cpp) </br>
+> 2024-06-27: [Remove Nth Node From End of List](List/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list_240627.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/), [English Version](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
 #### Keys
@@ -285,6 +287,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## Intersection of Two Linked Lists
 > My first version: except for the brutal force method or the hashmap method, no idea </br>
+> 2024-06-27: [Intersection of Two Linked Lists](List/intersection-of-two-linked-lists-lcci/intersection-of-two-linked-lists-lcci_240627.py) </br>
 > Answer: [Intersection of Two Linked Lists](List/intersection-of-two-linked-lists-lcci/intersection-of-two-linked-lists-lcci.cpp) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci/), [English Version](https://leetcode.com/problems/intersection-of-two-linked-lists-lcci/)
 
@@ -293,6 +296,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## Linked List Cycle-ii
 > My first version: [Linked List Cycle-ii](List/linked-list-cycle-ii/linked-list-cycle-ii.cpp) </br>
+> 2024-06-27: [Linked List Cycle-ii](List/linked-list-cycle-ii/linked-list-cycle-ii_240627.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/linked-list-cycle-ii/), [English Version](https://leetcode.com/problems/linked-list-cycle-ii/)
 
 #### Keys

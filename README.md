@@ -311,6 +311,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 # Hash Table
 ## Valid Anagram
 > My first version: [Valid Anagram](Hash-Table/valid-anagram/valid-anagram.cpp) </br>
+> 2024-06-28: [Valid Anagram](Hash-Table/valid-anagram/valid-anagram_240628.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/valid-anagram/), [English Version](https://leetcode.com/problems/valid-anagram/)
 
 #### Keys:
@@ -320,10 +321,12 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 > No idea other than brutal force method </br>
 > Answer: [intersection-of-two-arrays](Hash-Table/intersection-of-two-arrays/intersection-of-two-arrays.cpp) </br>
 > Since the answer uses the ```unordered_set``` container, I have to learn it. Answer link: https://www.programmercarl.com/0349.%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86.html#%E6%80%9D%E8%B7%AF</br>
+> 2024-06-28: [intersection-of-two-arrays](Hash-Table/intersection-of-two-arrays/intersection-of-two-arrays_240628.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/intersection-of-two-arrays/), [English Version](https://leetcode.com/problems/intersection-of-two-arrays/)
 
 ## Happy Number
 > My first version: [Happy Number](Hash-Table/happy-number/happy-number.cpp) </br>
+> 2024-06-28: [Happy Number](Hash-Table/happy-number/happy-number_240628.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/happy-number/), [English Version](https://leetcode.com/problems/happy-number/)
 
 #### Keys:
@@ -331,6 +334,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## Two-sum
 > My first version: [Two-sum](Hash-Table/two-sum/two-sum.cpp) </br>
+> 2024-06-28: [Two-sum](Hash-Table/two-sum/two-sum_240628.py) </br>
 > Porblem Link: [Chinese Version](https://leetcode-cn.com/problems/two-sum/), [English Version](https://leetcode.com/problems/two-sum/)
 
 #### Keys:

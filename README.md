@@ -342,6 +342,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## Four-sum-ii
 > My first version: [Four-sum-ii](Hash-Table/four-sum-ii/four-sum-ii.cpp) </br>
+> 2024-06-29: [Four-sum-ii](Hash-Table/four-sum-ii/four-sum-ii_240629.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/four-sum-ii/), [English Version](https://leetcode.com/problems/four-sum-ii/)
 
 #### Keys:
@@ -350,6 +351,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## 3sum
 > No idea except hash map. But the de repetition process is trivious and easily bring bugs. It cannot pass. [3sum](Hash-Table/3sum/3sum.cpp) </br>
+> 2024-06-29: [3sum](Hash-Table/3sum/3sum_240629.py) </br>
 > answer: [3sum](Hash-Table/3sum/3sum2.cpp) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/3sum/), [English Version](https://leetcode.com/problems/3sum/)
 
@@ -360,6 +362,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## 4sum
 > My first version: [4sum](Hash-Table/4sum/4sum.cpp) </br>
+> 2024-06-29: [4sum](Hash-Table/4sum/4sum_240629.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/4sum/), [English Version](https://leetcode.com/problems/4sum/)
 
 #### Keys:

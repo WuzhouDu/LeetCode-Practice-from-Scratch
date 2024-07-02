@@ -372,6 +372,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 # String
 ## Reverse String
 > My first version: [Reverse String](String/reverse-string/reverse-string.cpp) </br>
+> 2024-07-02: [Reverse String](String/reverse-string/reverse-string_240702.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/reverse-string/), [English Version](https://leetcode.com/problems/reverse-string/)
 
 #### Keys:
@@ -379,6 +380,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## Reverse String-ii
 > My first version: [Reverse String-ii](String/reverse-string-ii/reverse-string-ii.cpp) </br>
+> 2024-07-02: [Reverse String-ii](String/reverse-string-ii/reverse-string-ii_240702.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/reverse-string-ii/), [English Version](https://leetcode.com/problems/reverse-string-ii/)
 
 #### Keys:
@@ -386,6 +388,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 
 ## Replace whitespace
 > My first version: [Replace white space](String/replace-whitespace/replace-whitespace.cpp) </br>
+> 2024-07-02: [Replace white space](String/replace-whitespace/replace-whitespace_240702.py) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/), [English Version](https://leetcode.com/problems/ti-huan-kong-ge-lcof/)
 
 #### Keys:
@@ -396,6 +399,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 ## Reverse words in a string
 > My first version: At first, I have no clear idea. </br>
 > After exposure to the answer's thought, the second version: [Reverse words in a string](String/reverse-words-in-a-string/reverse-words-in-a-string.cpp) </br>
+> 2024-07-02: [Reverse words in a string](String/reverse-words-in-a-string/reverse-words-in-a-string_240702.py) </br>
 > Problem link: [Chinese Version](https://leetcode.cn/problems/reverse-words-in-a-string/submissions/), [English Version](https://leetcode.com/problems/reverse-words-in-a-string/)
 
 #### Keys:

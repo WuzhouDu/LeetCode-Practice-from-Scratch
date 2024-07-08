@@ -410,6 +410,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 ## zuo-xuan-zhuan-zi-fu-chuan-lcof
 > My first version: [zuo-xuan-zhuan-zi-fu-chuan-lcof](String/zuo-xuan-zhuan-zi-fu-chuan-lcof/zuo-xuan-zhuan-zi-fu-chuan-lcof.cpp) </br>
 > Second version: [zuo-xuan-zhuan-zi-fu-chuan-lcof](String/zuo-xuan-zhuan-zi-fu-chuan-lcof/zuo-xuan-zhuan-zi-fu-chuan-lcof2.cpp) </br>
+> 2024-07-08: [zuo-xuan-zhuan-zi-fu-chuan-lcof](String/zuo-xuan-zhuan-zi-fu-chuan-lcof/zuo-xuan-zhuan-zi-fu-chuan-lcof_240708.py) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/), [English Version](https://leetcode.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
 
 #### Keys:
@@ -418,6 +419,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 ## KMP algo / find-the-index-of-the-first-occurrence-in-a-string
 > My first version: [find-the-index-of-the-first-occurrence-in-a-string, brutal force](String/find-the-index-of-the-first-occurrence-in-a-string/find-the-index-of-the-first-occurrence-in-a-string.cpp) </br>
 > Second version:[KMP](String/find-the-index-of-the-first-occurrence-in-a-string/kmp.cpp) </br>
+> 2024-07-08: [KMP](String/find-the-index-of-the-first-occurrence-in-a-string/kmp_240708.py) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/find-the-index-of-the-first-occurrence-in-a-string/), [English Version](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
 #### Keys:
@@ -442,6 +444,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 ## repeated-substring-pattern
 > My first version: brutal force, incurs $O(n^2)$ time complexity. </br>
 > second version: [repeated-substring-pattern](String/repeated-substring-pattern/repeated-substring-pattern.cpp) </br>
+> 2024-07-08: [repeated-substring-pattern](String/repeated-substring-pattern/repeated-substring-pattern_240708.py) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/repeated-substring-pattern/), [English Version](https://leetcode.com/problems/repeated-substring-pattern/)
 
 #### Keys:

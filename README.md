@@ -455,6 +455,7 @@ The conditions using **binary search** are usually **sorted** and **non-repetiti
 # Stack and Queue
 ## implement-queue-using-stacks
 > My first version: [implement-queue-using-stacks](Stack-and-Queue/implement-queue-using-stacks/implement-queue-using-stacks.cpp) </br>
+> 2024-07-09: [implement-queue-using-stacks](Stack-and-Queue/implement-queue-using-stacks/implement-queue-using-stacks_240709.py) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/implement-queue-using-stacks/), [English Version](https://leetcode.com/problems/implement-queue-using-stacks/)
 
 #### Keys:
@@ -462,27 +463,32 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## implement-stack-using-queues
 > My first version: [implement-stack-using-queues](Stack-and-Queue/implement-stack-using-queues/implement-stack-using-queues.cpp) </br>
+> 2024-07-09: [implement-stack-using-queues](Stack-and-Queue/implement-stack-using-queues/implement-stack-using-queues_240709.py) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/implement-stack-using-queues/), [English Version](https://leetcode.com/problems/implement-stack-using-queues/)
 > Basic problem so no more explanation.
 
 ## remove-all-adjacent-duplicates-in-string
 > My first version: [remove-all-adjacent-duplicates-in-string](Stack-and-Queue/remove-all-adjacent-duplicates-in-string/remove-all-adjacent-duplicates-in-string.cpp) </br>
+> 2024-07-09: [remove-all-adjacent-duplicates-in-string](Stack-and-Queue/remove-all-adjacent-duplicates-in-string/remove-all-adjacent-duplicates-in-string_240709.py) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/), [English Version](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
 > Basic problem so no more explanation.
 
 ## Valid Parentheses
 > My first version: [Valid Parentheses](Stack-and-Queue/Valid-Parentheses/Valid-Parentheses.cpp) </br>
+> 2024-07-09: [Valid Parentheses](Stack-and-Queue/Valid-Parentheses/Valid-Parentheses_240709.py) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/valid-parentheses/), [English Version](https://leetcode.com/problems/valid-parentheses/)
 > Basic problem so no more explanation.
 
 ## evaluate-reverse-polish-notation
 > My first version: [evaluate-reverse-polish-notation](Stack-and-Queue/evaluate-reverse-polish-notation/evaluate-reverse-polish-notation.cpp) </br>
+> 2024-07-09: [evaluate-reverse-polish-notation](Stack-and-Queue/evaluate-reverse-polish-notation/evaluate-reverse-polish-notation_240709.py) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/), [English Version](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 > Basic problem so no more explanation.
 
 ## sliding-window-maximum
 > My first version: [sliding-window-maximum](Stack-and-Queue/sliding-window-maximum/sliding-window-maximum.cpp) *This version exceeds the time constraint*</br>
 > Second version: [sliding-window-maximum](Stack-and-Queue/sliding-window-maximum/sliding-window-maximum2.cpp) </br>
+> 2024-07-09: [sliding-window-maximum](Stack-and-Queue/sliding-window-maximum/sliding-window-maximum_240709.py) </br>
 > Problem link: [Chinese Version](https://leetcode-cn.com/problems/sliding-window-maximum/), [English Version](https://leetcode.com/problems/sliding-window-maximum/)
 
 #### Keys:
@@ -507,6 +513,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## top-k-frequent-elements
 > I have no idea how to implement $O(nlogn)$ time complexity algo in this problem. </br>
+> 2024-07-09: [top-k-frequent-elements](Stack-and-Queue/top-k-frequent-elements/top-k-frequent-elements_240709.py) </br>
 > Answer link: [top-k-frequent-elements](Stack-and-Queue/top-k-frequent-elements/top-k-frequent-elements.cpp) </br>
 > The analysis is here (**much more deailed and clear than me and I need to reimplement this problem later**): https://leetcode.cn/problems/top-k-frequent-elements/solution/qian-k-ge-gao-pin-yuan-su-by-leetcode-solution/
 

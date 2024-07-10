@@ -522,18 +522,21 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 > **Recursive** version: [binary-tree-preorder-traversal](Binary-Tree/binary-tree-preorder-traversal/binary-tree-preorder-traversal.cpp) </br>
 > **Iteration Version1**: [binary-tree-preorder-traversal2](Binary-Tree/binary-tree-preorder-traversal/binary-tree-preorder-traversal2.cpp)
 > **Iteration Version2**: [binary-tree-preorder-traversal3](Binary-Tree/binary-tree-preorder-traversal/binary-tree-preorder-traversal3.cpp)
+> 2024-07-10: [binary-tree-preorder-traversal](Binary-Tree/binary-tree-preorder-traversal/binary-tree-preorder-traversal_240710.py) </br>
 > Problem Link: [Chinese Version](https://leetcode.cn/problems/binary-tree-preorder-traversal/), [English Version](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
 ## binary-tree-inorder-traversal
 > **Recursive** version: [binary-tree-inorder-traversal](Binary-Tree/binary-tree-inorder-traversal/binary-tree-inorder-traversal.cpp) </br>
 > **Iteration Version1**: [binary-tree-inorder-traversal2](Binary-Tree/binary-tree-inorder-traversal/binary-tree-inorder-traversal2.cpp)
 > **Iteration Version2**: [binary-tree-inorder-traversal3](Binary-Tree/binary-tree-inorder-traversal/binary-tree-inorder-traversal3.cpp)
+> 2024-07-10: [binary-tree-inorder-traversal](Binary-Tree/binary-tree-inorder-traversal/binary-tree-inorder-traversal_240710.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/), [English Version](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 ## binary-tree-postorder-traversal
 > **Recursive** version: [binary-tree-postorder-traversal](Binary-Tree/binary-tree-postorder-traversal/binary-tree-postorder-traversal.cpp) </br>
 > **Iteration Version1**: [binary-tree-postorder-traversal2](Binary-Tree/binary-tree-postorder-traversal/binary-tree-postorder-traversal2.cpp)
 > **Iteration Version2**: [binary-tree-postorder-traversal3](Binary-Tree/binary-tree-postorder-traversal/binary-tree-postorder-traversal3.cpp)
+> 2024-07-10: [binary-tree-postorder-traversal](Binary-Tree/binary-tree-postorder-traversal/binary-tree-postorder-traversal_240710.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/), [English Version](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
 ### Keys:
@@ -551,6 +554,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 > **Recursive** version: [binary-tree-level-order-traversal](Binary-Tree/binary-tree-level-order-traversal/binary-tree-level-order-traversal.cpp) </br>
 > **Iteration Version**: [binary-tree-level-order-traversal2](Binary-Tree/binary-tree-level-order-traversal/binary-tree-level-order-traversal2.cpp)
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/), [English Version](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+> 2024-07-10: [binary-tree-level-order-traversal](Binary-Tree/binary-tree-level-order-traversal/binary-tree-level-order-traversal_240710.py) </br>
 > Related Problems: 
 > 1.  [binary-tree-right-side-view](https://leetcode.cn/problems/binary-tree-right-side-view/) and [my version](Binary-Tree/binary-tree-level-order-Traversal/binary-tree-right-side-view.cpp)
 > 2. [n-ary-tree-level-order-traversal](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/) and [my version(using ***Null pointer mark method***)](Binary-Tree/binary-tree-level-order-Traversal/n-ary-tree-level-order-traversal.cpp)))

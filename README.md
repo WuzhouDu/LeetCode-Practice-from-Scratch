@@ -555,9 +555,14 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 > **Iteration Version**: [binary-tree-level-order-traversal2](Binary-Tree/binary-tree-level-order-traversal/binary-tree-level-order-traversal2.cpp)
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/), [English Version](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 > 2024-07-10: [binary-tree-level-order-traversal](Binary-Tree/binary-tree-level-order-traversal/binary-tree-level-order-traversal_240710.py) </br>
+> 2024-07-12: [binary-tree-level-order-traversal-ii](Binary-Tree/binary-tree-level-order-traversal/binary-tree-level-order-traversal-ii_240712.py) </br>
 > Related Problems: 
 > 1.  [binary-tree-right-side-view](https://leetcode.cn/problems/binary-tree-right-side-view/) and [my version](Binary-Tree/binary-tree-level-order-Traversal/binary-tree-right-side-view.cpp)
-> 2. [n-ary-tree-level-order-traversal](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/) and [my version(using ***Null pointer mark method***)](Binary-Tree/binary-tree-level-order-Traversal/n-ary-tree-level-order-traversal.cpp)))
+> 2024-07-12: [binary-tree-right-side-view](Binary-Tree/binary-tree-right-side-view/binary-tree-right-side-view_240712.py) </br>
+> 2. [n-ary-tree-level-order-traversal](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/) and [my version(using ***Null pointer mark method***)](Binary-Tree/binary-tree-level-order-Traversal/n-ary-tree-level-order-traversal.cpp)
+> 3. [populating-next-right-pointers-in-each-node](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/description/), 2024-07-12: [populating-next-right-pointers-in-each-node](Binary-Tree/binary-tree-level-order-Traversal/populating-next-right-pointers-in-each-node_240712.py) </br>
+> 4. [populating-next-right-pointers-in-each-node-ii](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/description/), 2024-07-12: [populating-next-right-pointers-in-each-node-ii](Binary-Tree/binary-tree-level-order-Traversal/populating-next-right-pointers-in-each-node-ii_240712.py) 
+> Very good problem combining linkedlist and binary tree. </br>
 
 #### Keys:
 1. Since levelorder traversal is **BFS**, we use **queue** to store the nodes traversed. </br>
@@ -565,6 +570,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## Invert Binary Tree
 > My version: [invert-binary-tree](Binary-Tree/invert-binary-tree/invert-binary-tree.cpp) </br>
+> 2024-07-12: [invert-binary-tree](Binary-Tree/invert-binary-tree/invert-binary-tree_240712.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/invert-binary-tree/), [English Version](https://leetcode.com/problems/invert-binary-tree/)
 
 #### Keys:
@@ -573,6 +579,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## Symmetric Tree
 > My version: [symmetric-tree](Binary-Tree/symmetric-tree/symmetric-tree.cpp) </br>
+> 2024-07-12: [symmetric-tree](Binary-Tree/symmetric-tree/symmetric-tree_240712.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/symmetric-tree/), [English Version](https://leetcode.com/problems/symmetric-tree/)
 
 #### Keys:
@@ -582,11 +589,13 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## Maximum Depth of Binary Tree
 > My version: [maximum-depth-of-binary-tree](Binary-Tree/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.cpp) </br>
+> 2024-07-12: [maximum-depth-of-binary-tree](Binary-Tree/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree_240712.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/), [English Version](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 
 ## Minimum Depth of Binary Tree
 > My version: [minimum-depth-of-binary-tree](Binary-Tree/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.cpp) </br>
+> 2024-07-12: [minimum-depth-of-binary-tree](Binary-Tree/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree_240712.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/), [English Version](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 
 #### Keys:
@@ -594,6 +603,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## Count Complete Tree Nodes
 > My version: [count-complete-tree-nodes](Binary-Tree/count-complete-tree-nodes/count-complete-tree-nodes.cpp) </br>
+> 2024-07-12: [count-complete-tree-nodes](Binary-Tree/count-complete-tree-nodes/count-complete-tree-nodes_240712.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/count-complete-tree-nodes/), [English Version](https://leetcode.com/problems/count-complete-tree-nodes/)
 
 #### Keys:

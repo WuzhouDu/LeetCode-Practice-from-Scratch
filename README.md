@@ -613,6 +613,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 ## Balanced Binary Tree
 > My first version: [balanced-binary-tree](Binary-Tree/balanced-binary-tree/balanced-binary-tree.cpp) </br>
 > My second version: [balanced-binary-tree2](Binary-Tree/balanced-binary-tree/balanced-binary-tree2.cpp) </br>
+> 2024-07-13: [balanced-binary-tree](Binary-Tree/balanced-binary-tree/balanced-binary-tree_240713.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/balanced-binary-tree/), [English Version](https://leetcode.com/problems/balanced-binary-tree/)
 
 #### Keys:
@@ -622,6 +623,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 ## binary-tree-paths
 > My version: [binary-tree-paths](Binary-Tree/binary-tree-paths/binary-tree-paths.cpp) </br>
 > Second version: [binary-tree-paths2](Binary-Tree/binary-tree-paths/binary-tree-paths2.cpp) </br>
+> 2024-07-13: [binary-tree-paths](Binary-Tree/binary-tree-paths/binary-tree-paths_240713.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/binary-tree-paths/), [English Version](https://leetcode.com/problems/binary-tree-paths/)
 
 #### Keys:
@@ -950,3 +952,32 @@ nothing to say... only way to solve greeding problem is by thinking greedingly b
 
 #### Keys:
 1. greedy: always choose the negative element with largest absolute value to negate. Then choose the smallest positive number to negate.</br>
+
+# Dynamic Programming
+## 509. Fibonacci Number
+> 2024-07-13: [Fibonacci Number](Dynamic-Programming/Fibonacci-Number/Fibonacci-Number.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/fibonacci-number/), [English Version](https://leetcode.com/problems/fibonacci-number/)
+
+## 70. Climbing Stairs
+> 2024-07-13: [Climbing Stairs](Dynamic-Programming/Climbing-Stairs/Climbing-Stairs.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/climbing-stairs/), [English Version](https://leetcode.com/problems/climbing-stairs/)
+
+## 746. Min Cost Climbing Stairs
+> 2024-07-13: [Min Cost Climbing Stairs](Dynamic-Programming/Min-Cost-Climbing-Stairs/Min-Cost-Climbing-Stairs.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/min-cost-climbing-stairs/), [English Version](https://leetcode.com/problems/min-cost-climbing-stairs/)
+
+## 62. Unique Paths
+> 2024-07-13: [Unique Paths](Dynamic-Programming/Unique-Paths/Unique-Paths.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/unique-paths/), [English Version](https://leetcode.com/problems/unique-paths/)
+
+## 63. Unique Paths II
+> 2024-07-13: [Unique Paths II](Dynamic-Programming/Unique-Paths-II/Unique-Paths-II.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/unique-paths-ii/), [English Version](https://leetcode.com/problems/unique-paths-ii/)
+
+## 343. Integer Break
+> 2024-07-13: [Integer Break](Dynamic-Programming/Integer-Break/Integer-Break.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/integer-break/), [English Version](https://leetcode.com/problems/integer-break/)
+
+## 96. Unique Binary Search Trees
+> 2024-07-13: [Unique Binary Search Trees](Dynamic-Programming/Unique-Binary-Search-Trees/Unique-Binary-Search-Trees.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/unique-binary-search-trees/), [English Version](https://leetcode.com/problems/unique-binary-search-trees/)

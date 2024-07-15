@@ -981,3 +981,15 @@ nothing to say... only way to solve greeding problem is by thinking greedingly b
 ## 96. Unique Binary Search Trees
 > 2024-07-13: [Unique Binary Search Trees](Dynamic-Programming/Unique-Binary-Search-Trees/Unique-Binary-Search-Trees.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/unique-binary-search-trees/), [English Version](https://leetcode.com/problems/unique-binary-search-trees/)
+
+## 416. Partition Equal Subset Sum
+> 2024-07-15: [Partition Equal Subset Sum](Dynamic-Programming/Partition-Equal-Subset-Sum/Partition-Equal-Subset-Sum.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/partition-equal-subset-sum/), [English Version](https://leetcode.com/problems/partition-equal-subset-sum/)
+
+## 1049. Last Stone Weight II
+> 2024-07-15: [Last Stone Weight II](Dynamic-Programming/Last-Stone-Weight-II/Last-Stone-Weight-II.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/last-stone-weight-ii/), [English Version](https://leetcode.com/problems/last-stone-weight-ii/)
+
+## 494. Target Sum
+> 2024-07-15: [Target Sum](Dynamic-Programming/Target-Sum/Target-Sum.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/target-sum/), [English Version](https://leetcode.com/problems/target-sum/)

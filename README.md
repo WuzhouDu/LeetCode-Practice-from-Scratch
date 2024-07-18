@@ -993,3 +993,32 @@ nothing to say... only way to solve greeding problem is by thinking greedingly b
 ## 494. Target Sum
 > 2024-07-15: [Target Sum](Dynamic-Programming/Target-Sum/Target-Sum.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/target-sum/), [English Version](https://leetcode.com/problems/target-sum/)
+
+## 474. Ones and Zeroes
+> 2024-07-17: [Ones and Zeroes](Dynamic-Programming/Ones-and-Zeroes/Ones-and-Zeroes.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/ones-and-zeroes/), [English Version](https://leetcode.com/problems/ones-and-zeroes/)
+
+## 518. Coin Change II
+> 2024-07-17: [Coin Change II](Dynamic-Programming/Coin-Change-II/Coin-Change-II.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/coin-change-ii/), [English Version](https://leetcode.com/problems/coin-change-ii/)
+
+## 377. Combination Sum IV
+> 2024-07-18: [Combination Sum IV](Dynamic-Programming/Combination-Sum-IV/Combination-Sum-IV.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/combination-sum-iv/), [English Version](https://leetcode.com/problems/combination-sum-iv/)
+> This problem is a **permutation** of the [Coin Change II](#518-coin-change-ii) problem. The complete package problem is a combination problem. Here we should pay attention that **iteration order** determines whether it is combination or permutation. If we iterate every item for the same volume, we are actully considering permutation (the order of each item matters)! If we iterate every volume for the same item, we consider combination (the amount of each item matters). </br>
+
+## 322. Coin Change
+> 2024-07-18: [Coin Change](Dynamic-Programming/Coin-Change/Coin-Change.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/coin-change/), [English Version](https://leetcode.com/problems/coin-change/)
+
+## 279. Perfect Squares
+> 2024-07-18: [Perfect Squares](Dynamic-Programming/Perfect-Squares/Perfect-Squares.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/perfect-squares/), [English Version](https://leetcode.com/problems/perfect-squares/)
+
+## 139. Word Break
+> 2024-07-18: [Word Break](Dynamic-Programming/Word-Break/Word-Break.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/word-break/), [English Version](https://leetcode.com/problems/word-break/)
+
+## 198. House Robber
+> 2024-07-18: [House Robber](Dynamic-Programming/House-Robber/House-Robber.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/house-robber/), [English Version](https://leetcode.com/problems/house-robber/)

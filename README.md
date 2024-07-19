@@ -1022,3 +1022,23 @@ nothing to say... only way to solve greeding problem is by thinking greedingly b
 ## 198. House Robber
 > 2024-07-18: [House Robber](Dynamic-Programming/House-Robber/House-Robber.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/house-robber/), [English Version](https://leetcode.com/problems/house-robber/)
+
+## 213. House Robber II
+> 2024-07-19: [House Robber II](Dynamic-Programming/House-Robber-II/House-Robber-II.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/house-robber-ii/), [English Version](https://leetcode.com/problems/house-robber-ii/)
+
+## 337. House Robber III
+> 2024-07-19: [House Robber III](Dynamic-Programming/House-Robber-III/House-Robber-III.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/house-robber-iii/), [English Version](https://leetcode.com/problems/house-robber-iii/)
+
+## 121. Best Time to Buy and Sell Stock
+> 2024-07-19: [Best Time to Buy and Sell Stock](Dynamic-Programming/Best-Time-to-Buy-and-Sell-Stock/Best-Time-to-Buy-and-Sell-Stock.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/), [English Version](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+## 122. Best Time to Buy and Sell Stock II
+> 2024-07-19: [Best Time to Buy and Sell Stock II](Dynamic-Programming/Best-Time-to-Buy-and-Sell-Stock-II/Best-Time-to-Buy-and-Sell-Stock-II.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/), [English Version](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+
+## 123. Best Time to Buy and Sell Stock III
+> 2024-07-19: [Best Time to Buy and Sell Stock III](Dynamic-Programming/Best-Time-to-Buy-and-Sell-Stock-III/Best-Time-to-Buy-and-Sell-Stock-III.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/), [English Version](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)

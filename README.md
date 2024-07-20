@@ -1042,3 +1042,20 @@ nothing to say... only way to solve greeding problem is by thinking greedingly b
 ## 123. Best Time to Buy and Sell Stock III
 > 2024-07-19: [Best Time to Buy and Sell Stock III](Dynamic-Programming/Best-Time-to-Buy-and-Sell-Stock-III/Best-Time-to-Buy-and-Sell-Stock-III.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/), [English Version](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
+
+## 188. Best Time to Buy and Sell Stock IV
+> 2024-07-20: [Best Time to Buy and Sell Stock IV](Dynamic-Programming/Best-Time-to-Buy-and-Sell-Stock-IV/Best-Time-to-Buy-and-Sell-Stock-IV.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/), [English Version](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
+
+## 309. Best Time to Buy and Sell Stock with Cooldown
+> 2024-07-20: [Best Time to Buy and Sell Stock with Cooldown](Dynamic-Programming/Best-Time-to-Buy-and-Sell-Stock-with-Cooldown/Best-Time-to-Buy-and-Sell-Stock-with-Cooldown.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/), [English Version](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+
+## 714. Best Time to Buy and Sell Stock with Transaction Fee
+> 2024-07-20: [Best Time to Buy and Sell Stock with Transaction Fee](Dynamic-Programming/Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee/Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/), [English Version](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+
+## 300. Longest Increasing Subsequence
+> 2024-07-20: [Longest Increasing Subsequence](Dynamic-Programming/Longest-Increasing-Subsequence/Longest-Increasing-Subsequence.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/longest-increasing-subsequence/), [English Version](https://leetcode.com/problems/longest-increasing-subsequence/)
+> Key: how to understand the `tail` variable is the key to decrease the time complexity. </br>

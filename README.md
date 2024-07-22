@@ -1059,3 +1059,24 @@ nothing to say... only way to solve greeding problem is by thinking greedingly b
 > 2024-07-20: [Longest Increasing Subsequence](Dynamic-Programming/Longest-Increasing-Subsequence/Longest-Increasing-Subsequence.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/longest-increasing-subsequence/), [English Version](https://leetcode.com/problems/longest-increasing-subsequence/)
 > Key: how to understand the `tail` variable is the key to decrease the time complexity. </br>
+
+## 674. Longest Continuous Increasing Subsequence
+> 2024-07-22: [Longest Continuous Increasing Subsequence](Dynamic-Programming/Longest-Continuous-Increasing-Subsequence/Longest-Continuous-Increasing-Subsequence.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/), [English Version](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
+
+## 718. Maximum Length of Repeated Subarray
+> 2024-07-22: [Maximum Length of Repeated Subarray](Dynamic-Programming/Maximum-Length-of-Repeated-Subarray/Maximum-Length-of-Repeated-Subarray.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/), [English Version](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
+
+## 1143. Longest Common Subsequence
+> 2024-07-22: [Longest Common Subsequence](Dynamic-Programming/Longest-Common-Subsequence/Longest-Common-Subsequence.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/longest-common-subsequence/), [English Version](https://leetcode.com/problems/longest-common-subsequence/)
+
+## 1035. Uncrossed Lines
+> 2024-07-22: [Uncrossed Lines](Dynamic-Programming/Uncrossed-Lines/Uncrossed-Lines.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/uncrossed-lines/), [English Version](https://leetcode.com/problems/uncrossed-lines/)
+> The same as the last question. </br>
+
+## 53. Maximum Subarray
+> 2024-07-22: [Maximum Subarray](Dynamic-Programming/Maximum-Subarray/Maximum-Subarray.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/maximum-subarray/), [English Version](https://leetcode.com/problems/maximum-subarray/)

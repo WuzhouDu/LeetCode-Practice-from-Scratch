@@ -1080,3 +1080,28 @@ nothing to say... only way to solve greeding problem is by thinking greedingly b
 ## 53. Maximum Subarray
 > 2024-07-22: [Maximum Subarray](Dynamic-Programming/Maximum-Subarray/Maximum-Subarray.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/maximum-subarray/), [English Version](https://leetcode.com/problems/maximum-subarray/)
+
+## 392. Is Subsequence
+> 2024-07-23: [Is Subsequence](Dynamic-Programming/Is-Subsequence/Is-Subsequence.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/is-subsequence/), [English Version](https://leetcode.com/problems/is-subsequence/)
+> **Follow up**: Suppose there are lots of incoming s, say s1, s2, ..., sk where k >= 109, and you want to check one by one to see if t has its subsequence. In this scenario, how would you change your code? **Use dp to record the pattern of string t.** </br>
+
+## 115. Distinct Subsequences
+> 2024-07-23: [Distinct Subsequences](Dynamic-Programming/Distinct-Subsequences/Distinct-Subsequences.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/distinct-subsequences/), [English Version](https://leetcode.com/problems/distinct-subsequences/)
+
+## 583. Delete Operation for Two Strings
+> 2024-07-23: [Delete Operation for Two Strings](Dynamic-Programming/Delete-Operation-for-Two-Strings/Delete-Operation-for-Two-Strings.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/delete-operation-for-two-strings/), [English Version](https://leetcode.com/problems/delete-operation-for-two-strings/)
+
+## 72. Edit Distance
+> 2024-07-23: [Edit Distance](Dynamic-Programming/Edit-Distance/Edit-Distance.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/edit-distance/), [English Version](https://leetcode.com/problems/edit-distance/)
+
+## 647. Palindromic Substrings
+> 2024-07-23: [Palindromic Substrings](Dynamic-Programming/Palindromic-Substrings/Palindromic-Substrings.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/palindromic-substrings/), [English Version](https://leetcode.com/problems/palindromic-substrings/)
+
+## 516. Longest Palindromic Subsequence
+> 2024-07-23: [Longest Palindromic Subsequence](Dynamic-Programming/Longest-Palindromic-Subsequence/Longest-Palindromic-Subsequence.py) </br>
+> Problem Link: [Chinese Version](https://leetcode-cn.com/problems/longest-palindromic-subsequence/), [English Version](https://leetcode.com/problems/longest-palindromic-subsequence/)

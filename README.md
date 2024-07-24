@@ -632,6 +632,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## sum of left leaves
 > My version: [sum-of-left-leaves](Binary-Tree/sum-of-left-leaves/sum-of-left-leaves.cpp) </br>
+> 2024-07-24: [sum-of-left-leaves](Binary-Tree/sum-of-left-leaves/sum-of-left-leaves_240724.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/sum-of-left-leaves/), [English Version](https://leetcode.com/problems/sum-of-left-leaves/)
 
 #### Keys:
@@ -641,6 +642,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 ## Find Bottom Left Tree Value
 > My version: [find-bottom-left-tree-value](Binary-Tree/find-bottom-left-tree-value/find-bottom-left-tree-value.cpp) </br>
 > Version2: [find-bottom-left-tree-value2](Binary-Tree/find-bottom-left-tree-value/find-bottom-left-tree-value2.cpp) </br>
+> 2024-07-24: [find-bottom-left-tree-value](Binary-Tree/find-bottom-left-tree-value/find-bottom-left-tree-value_240724.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/find-bottom-left-tree-value/), [English Version](https://leetcode.com/problems/find-bottom-left-tree-value/)
 
 #### Keys:
@@ -649,6 +651,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## path-sum
 > My version: [path-sum](Binary-Tree/path-sum/path-sum.cpp) </br>
+> 2024-07-24: [path-sum](Binary-Tree/path-sum/path-sum_240724.py) </br>
 > problem Link: [Chinese Version](https://leetcode-cn.com/problems/path-sum/), [English Version](https://leetcode.com/problems/path-sum/)
 
 #### Keys:
@@ -656,6 +659,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## path-sum-ii
 > My version: [path-sum-ii](Binary-Tree/path-sum-ii/path-sum-ii.cpp) </br>
+> 2024-07-24: [path-sum-ii](Binary-Tree/path-sum-ii/path-sum-ii_240724.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/path-sum-ii/), [English Version](https://leetcode.com/problems/path-sum-ii/)
 
 #### Keys:
@@ -665,6 +669,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 ## construct-binary-tree-from-inorder-and-postorder-traversal
 > My version: [construct-binary-tree-from-inorder-and-postorder-traversal](Binary-Tree/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.cpp) </br>
 > Second version: [construct-binary-tree-from-inorder-and-postorder-traversal2](Binary-Tree/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal2.cpp) </br>
+> 2024-07-24: [construct-binary-tree-from-inorder-and-postorder-traversal](Binary-Tree/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal_240724.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/), [English Version](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 
 #### Keys:
@@ -681,6 +686,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## maximum-binary-tree
 > My version: [maximum-binary-tree](Binary-Tree/maximum-binary-tree/maximum-binary-tree.cpp) </br>
+> 2024-07-24: [maximum-binary-tree](Binary-Tree/maximum-binary-tree/maximum-binary-tree_240724.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/maximum-binary-tree/), [English Version](https://leetcode.com/problems/maximum-binary-tree/)
 
 #### Keys:

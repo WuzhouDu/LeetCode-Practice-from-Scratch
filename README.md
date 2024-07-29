@@ -694,6 +694,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## merge-two-binary-trees
 > My version: [merge-two-binary-trees](Binary-Tree/merge-two-binary-trees/merge-two-binary-trees.cpp) </br>
+> 2024-07-28: [merge-two-binary-trees](Binary-Tree/merge-two-binary-trees/merge-two-binary-trees_240728.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/merge-two-binary-trees/), [English Version](https://leetcode.com/problems/merge-two-binary-trees/)
 
 #### Keys:
@@ -755,6 +756,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## delete-node-in-a-bst
 > My version: [delete-node-in-a-bst](Binary-Tree/delete-node-in-a-bst/delete-node-in-a-bst.cpp) </br>
+> 2024-07-29: [delete-node-in-a-bst](Binary-Tree/delete-node-in-a-bst/delete-node-in-a-bst_240729.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/delete-node-in-a-bst/), [English Version](https://leetcode.com/problems/delete-node-in-a-bst/)
 
 #### Keys:
@@ -776,6 +778,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## convert-bst-to-greater-tree
 > My version: [convert-bst-to-greater-tree](Binary-Tree/convert-bst-to-greater-tree/convert-bst-to-greater-tree.cpp) </br>
+> 2024-07-29: [convert-bst-to-greater-tree](Binary-Tree/convert-bst-to-greater-tree/convert-bst-to-greater-tree_240729.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/), [English Version](https://leetcode.com/problems/convert-bst-to-greater-tree/)
 
 #### Keys:

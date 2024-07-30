@@ -98,7 +98,8 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     4. [jump-game](#jump-game) </br>
     5. [jump-game-ii](#jump-game-ii) </br>
     6. [maximize-sum-of-array-after-k-negations](#maximize-sum-of-array-after-k-negations) </br>
-    7. [assign-cookies]
+
+> **Dynamic Programming**: 
 
 # Array
 ## Binary Search
@@ -788,6 +789,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 ## Combinations
 > My version: [Combinations](Backtracking/Combinations/Combinations.cpp) </br>
 > Second version: [Combinations2](Backtracking/Combinations/Combinations2.cpp) </br>
+> 2024-07-30: [Combinations](Backtracking/Combinations/Combinations_240730.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/combinations/), [English Version](https://leetcode.com/problems/combinations/)
 
 #### Keys:
@@ -796,6 +798,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## combination-sum-iii
 > My version: [combination-sum-iii](Backtracking/combination-sum-iii/combination-sum-iii.cpp) </br>
+> 2024-07-30: [combination-sum-iii](Backtracking/combination-sum-iii/combination-sum-iii_240730.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/combination-sum-iii/), [English Version](https://leetcode.com/problems/combination-sum-iii/)
 
 #### Keys:
@@ -812,6 +815,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## combination-sum
 > My version: [combination-sum](Backtracking/combination-sum/combination-sum.cpp) </br>
+> 2024-07-30: [combination-sum](Backtracking/combination-sum/combination-sum_240730.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/combination-sum/), [English Version](https://leetcode.com/problems/combination-sum/)
 
 #### Keys:
@@ -819,6 +823,7 @@ Very fundamental problem. Just pay attention to **when to update the out queue**
 
 ## combination-sum-ii
 > My version: [combination-sum-ii](Backtracking/combination-sum-ii/combination-sum-ii.cpp) </br>
+> 2024-07-30: [combination-sum-ii](Backtracking/combination-sum-ii/combination-sum-ii_240730.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/combination-sum-ii/), [English Version](https://leetcode.com/problems/combination-sum-ii/)
 
 #### Keys:

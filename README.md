@@ -925,6 +925,7 @@ as above. But this method has an **assumption: the array is in order**. But this
 # Greeding
 ## Wiggle subsequence
 > My version: [wiggle-subsequence](Greeding/wiggle-subsequence/wiggle-subsequence.js) </br>
+> 2024-07-31: [wiggle-subsequence](Greeding/wiggle-subsequence/wiggle-subsequence_240731.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/wiggle-subsequence/), [English Version](https://leetcode.com/problems/wiggle-subsequence/)
 
 #### Keys:

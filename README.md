@@ -968,6 +968,33 @@ nothing to say... only way to solve greeding problem is by thinking greedingly b
 #### Keys:
 1. greedy: always choose the negative element with largest absolute value to negate. Then choose the smallest positive number to negate.</br>
 
+## 134. Gas Station
+> 2024-08-01: [Gas Station](Greeding/Gas-Station/Gas-Station.py) </br>
+
+## 135. Candy
+> 2024-08-02: [Candy](Greeding/Candy/Candy.py) </br>
+> key: It's a very delicate problem. The key point is to **satisfy the two conditions** at the same time. </br>
+
+## 860. Lemonade Change
+> 2024-08-02: [Lemonade Change](Greeding/Lemonade-Change/Lemonade-Change.py) </br>
+
+## 406. Queue Reconstruction by Height
+> 2024-08-02: [Queue Reconstruction by Height](Greeding/Queue-Reconstruction-by-Height/Queue-Reconstruction-by-Height.py) </br>
+
+## 452. Minimum Number of Arrows to Burst Balloons
+> 2024-08-02: [Minimum Number of Arrows to Burst Balloons](Greeding/Minimum-Number-of-Arrows-to-Burst-Balloons/Minimum-Number-of-Arrows-to-Burst-Balloons.py) </br>
+
+## 435. Non-overlapping Intervals
+> 2024-08-02: [Non-overlapping Intervals](Greeding/Non-overlapping-Intervals/Non-overlapping-Intervals.py) </br>
+
+## 763. Partition Labels
+> 2024-08-02: [Partition Labels](Greeding/Partition-Labels/Partition-Labels.py) </br>
+> Key: the previous 3 problems are all about **interval scheduling**. </br>
+
+
+
+
+
 # Dynamic Programming
 ## 509. Fibonacci Number
 > 2024-07-13: [Fibonacci Number](Dynamic-Programming/Fibonacci-Number/Fibonacci-Number.py) </br>

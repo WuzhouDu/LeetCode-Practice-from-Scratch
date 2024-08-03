@@ -98,12 +98,13 @@ Thanks to [代码随想录](https://www.programmercarl.com) for giving a detaile
     4. [jump-game](#jump-game) </br>
     5. [jump-game-ii](#jump-game-ii) </br>
     6. [maximize-sum-of-array-after-k-negations](#maximize-sum-of-array-after-k-negations) </br>
-
 > **Dynamic Programming**: 
+>
+> **Monotonic Stack**:
 
 # Array
 ## Binary Search
-> My first version: [Binary Search](Array/binary_search/binary_search.py) </br>
+> My first version: [Binary Search](Array/binary_search/binary_search.py) </>
 > 2024-4-8: [Binary Search](Array/binary_search/binary_search_240408.py) </br>
 > Problem Link: [Chinese Version](https://leetcode.cn/problems/binary-search/), [English Version](https://leetcode.com/problems/binary-search/)
 #### Missing Keys:
@@ -991,9 +992,15 @@ nothing to say... only way to solve greeding problem is by thinking greedingly b
 > 2024-08-02: [Partition Labels](Greeding/Partition-Labels/Partition-Labels.py) </br>
 > Key: the previous 3 problems are all about **interval scheduling**. </br>
 
+## 56. Merge Intervals
+> 2024-08-03: [Merge Intervals](Greeding/Merge-Intervals/Merge-Intervals.py) </br>
 
+## 738. Monotone Increasing Digits
+> 2024-08-03: [Monotone Increasing Digits](Greeding/Monotone-Increasing-Digits/Monotone-Increasing-Digits.py) </br>
 
-
+## 968. Binary Tree Cameras
+> 2024-08-03: [Binary Tree Cameras](Greeding/Binary-Tree-Cameras/Binary-Tree-Cameras.py) </br>
+> key: a very delicate problem. Be greedy from the bottom to top. </br>
 
 # Dynamic Programming
 ## 509. Fibonacci Number
@@ -1147,3 +1154,13 @@ nothing to say... only way to solve greeding problem is by thinking greedingly b
 ## 516. Longest Palindromic Subsequence
 > 2024-07-23: [Longest Palindromic Subsequence](Dynamic-Programming/Longest-Palindromic-Subsequence/Longest-Palindromic-Subsequence.py) </br>
 > Problem Link: [Chinese Version](https://leetcode-cn.com/problems/longest-palindromic-subsequence/), [English Version](https://leetcode.com/problems/longest-palindromic-subsequence/)
+
+# Monotonic Stack
+## 739. Daily Temperatures
+> 2024-08-03: [Daily Temperatures](Monotonic-Stack/Daily-Temperatures/Daily-Temperatures.py) </br>
+
+## 496. Next Greater Element I
+> 2024-08-03: [Next Greater Element I](Monotonic-Stack/Next-Greater-Element-I/Next-Greater-Element-I.py) </br>
+
+## 503. Next Greater Element II
+> 2024-08-03: [Next Greater Element II](Monotonic-Stack/Next-Greater-Element-II/Next-Greater-Element-II.py) </br>

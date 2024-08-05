@@ -1164,3 +1164,10 @@ nothing to say... only way to solve greeding problem is by thinking greedingly b
 
 ## 503. Next Greater Element II
 > 2024-08-03: [Next Greater Element II](Monotonic-Stack/Next-Greater-Element-II/Next-Greater-Element-II.py) </br>
+
+## 42. Trapping Rain Water
+> 2024-08-05: [Trapping Rain Water](Monotonic-Stack/Trapping-Rain-Water/Trapping-Rain-Water.py) </br>
+
+## 84. Largest Rectangle in Histogram
+> 2024-08-05: [Largest Rectangle in Histogram](Monotonic-Stack/Largest-Rectangle-in-Histogram/Largest-Rectangle-in-Histogram.py) </br>
+> The previous two questions are hard and need to be practiced more. </br>
